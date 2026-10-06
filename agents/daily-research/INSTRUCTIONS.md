@@ -6,7 +6,7 @@ Read `AGENTS.md` before every run. Its source-authority rules apply here: our ma
 
 ## One run
 
-1. **Date and window.** The run date is today in `America/New_York`. The window starts at the `run_date` of the newest `docs/daily-collection/*.json` and ends at the run date. With no earlier report, look back 30 days. Never accept a work dated after the run date.
+1. **Date and window.** The run date is today in `America/New_York`. Search the 14 days ending on the run date, or back to the newest earlier report's `run_date` if that is further back. With no earlier report, look back 30 days. arXiv lists papers a day or more after submission, and search engines index them later still, so re-scan the whole window on every run; de-duplication (step 2) keeps works already reported out of the new candidates. Never accept a work dated after the run date.
 2. **Baseline for de-duplication.** Ignore arXiv version suffixes and compare by identifier, then by exact title (case-insensitive):
    - `data/survey-references.json` (`arxiv_id`, `title`): the 412-work collection;
    - `data/manuscript-mapping.json` (`title`, `name`): our manuscript's roadmap examples;
@@ -16,7 +16,7 @@ Read `AGENTS.md` before every run. Its source-authority rules apply here: our ma
    `curl -s "https://export.arxiv.org/api/query?search_query=abs:%22in-context%22+AND+abs:robot&sortBy=submittedDate&sortOrder=descending&max_results=100"`.
    Cover at least: `abs:"in-context" AND abs:robot`; `abs:"in-context learning" AND (abs:embodied OR abs:manipulation OR abs:locomotion OR abs:navigation OR abs:driving OR abs:drone)`; `abs:"in-context imitation"`; `abs:"in-context" AND abs:"vision-language-action"`; `abs:"in-context reinforcement learning"`. Add a web search for the same window as a secondary discovery source. Record every query in the report.
 4. **Screen.** Keep a work when its abstract describes an embodied agent that adapts at deployment from context (demonstrations, language, images or video, trajectories, retrieved or self-built experience), or a benchmark or analysis of that ability. Use `priority: "boundary"` when the link to in-context adaptation is uncertain. An extra input alone does not establish learning.
-5. **Verify.** Open each kept candidate's arXiv abstract page. Record the exact title, the first authors, the first submission date (UTC), the current version, and what the abstract states. Never rely on a search snippet.
+5. **Verify.** Open each kept candidate's arXiv abstract page. Record the exact title, the first authors, the first submission date (UTC), the current version, and what the abstract states. Never rely on a search snippet. Every work the report proposes must be verified and listed in the JSON summary; do not keep a separate list of unverified leads.
 6. **Suggest a classification.** Using our manuscript's framework only:
    - `form`: `text`, `visual`, `trajectory`, `multimodal`, or `null`;
    - `roles`: any of `task`, `state`, `behavior`, or empty when unsupported;
