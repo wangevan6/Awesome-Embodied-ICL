@@ -1,0 +1,23 @@
+{
+  "correction_date": "2026-10-06",
+  "authority": "User-confirmed ownership; our manuscript governs conceptual structure. Retain every one of the 412 external bibliography records.",
+  "manuscript": {
+    "title": "In-Context Learning for Embodied Agents: Methods, Benchmarks, and Open Challenges",
+    "ownership": "our work",
+    "purpose": "Conceptual framework, definition, chapter structure",
+    "availability": "Not yet public; its PDF is kept outside this repository. Page numbers in data/manuscript-mapping.json refer to the draft identified by sha256.",
+    "pages": 15,
+    "sha256": "03818db02541845cd9f85a6b3eb69ccfd4584a5b6380a81386f3c96fedfb8807"
+  },
+  "external_survey": {
+    "filename": "robot-icl-survey.pdf",
+    "title": "In-Context Learning for Robots: Methods and Applications",
+    "ownership": "external work",
+    "purpose": "Preserved 412-reference inventory and explicitly attributed external annotations",
+    "url": "https://arxiv.org/abs/2609.36012",
+    "pdf_url": "https://arxiv.org/pdf/2609.36012v1",
+    "availability": "Public. Page links point to arXiv v1, which has the same pagination as the authors' project-page copy identified by sha256.",
+    "pages": 100,
+    "sha256": "49ac471603c28c81d01ff749d8256f9b9d5ad0c30bd358dba979dbb2feb8b0a9"
+  }
+}

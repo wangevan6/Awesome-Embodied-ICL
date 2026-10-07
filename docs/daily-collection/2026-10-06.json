@@ -1,0 +1,15 @@
+{
+  "run_date": "2026-10-06",
+  "timezone": "America/New_York",
+  "report": "docs/daily-collection/2026-10-06.md",
+  "note": "Machine-readable summary of the report. Forms and roles are review suggestions from abstracts, not manuscript mappings. Nothing here is part of the collection until a reviewer accepts it.",
+  "candidates": [
+    {"name": "ViGAR", "title": "Rethinking World-Action Model for Compositional and In-Context Robotic Manipulation", "url": "https://arxiv.org/abs/2610.02368v1", "arxiv_id": "2610.02368", "submitted": "2026-10-01", "priority": "core", "form": "visual", "roles": ["task"], "self_built": null, "decision": "pending"},
+    {"name": "SimpleICL", "title": "In-context Robot Learning Made Simple: A Democratized Recipe for Manipulation Tasks", "url": "https://arxiv.org/abs/2609.38173v1", "arxiv_id": "2609.38173", "submitted": "2026-09-29", "priority": "core", "form": "visual", "roles": [], "self_built": null, "decision": "pending"},
+    {"name": "RoboICL", "title": "RoboICL: Embodied In-Context Learning with GPT-6 Astra", "url": "https://arxiv.org/abs/2609.34261v1", "arxiv_id": "2609.34261", "submitted": "2026-09-28", "priority": "core", "form": "trajectory", "roles": ["behavior"], "self_built": true, "decision": "pending"},
+    {"name": "Bridging Frontier Reasoning", "title": "Bridging Frontier Reasoning and Robot Execution: From Autonomous Demonstration Generation to Dense Language Supervision", "url": "https://arxiv.org/abs/2610.03615v1", "arxiv_id": "2610.03615", "submitted": "2026-10-02", "priority": "boundary", "form": "trajectory", "roles": [], "self_built": null, "decision": "pending"},
+    {"name": "CausalWM", "title": "CausalWM: Causal Chain-of-Thought Reasoning for Embodied World Model", "url": "https://arxiv.org/abs/2609.23184v2", "arxiv_id": "2609.23184", "submitted": "2026-09-19", "priority": "boundary", "form": "visual", "roles": [], "self_built": null, "decision": "pending"},
+    {"name": "RV-ICL", "title": "Recursive Video In-Context Learning for Agentic Robot", "url": "https://arxiv.org/abs/2610.06843v1", "arxiv_id": "2610.06843", "submitted": "2026-10-05", "priority": "core", "form": "visual", "roles": ["behavior"], "self_built": null, "decision": "pending"},
+    {"name": "EAPN", "title": "Execution-Aligned Progressive Noise for Consistent Asynchronous Replanning in Generative Robot Policies", "url": "https://arxiv.org/abs/2610.06090v1", "arxiv_id": "2610.06090", "submitted": "2026-10-05", "priority": "boundary", "form": "trajectory", "roles": [], "self_built": null, "decision": "pending"}
+  ]
+}

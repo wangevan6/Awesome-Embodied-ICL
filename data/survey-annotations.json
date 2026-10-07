@@ -1,0 +1,585 @@
+[
+  {
+    "paper_id": "regent-2024",
+    "survey_reference": 154,
+    "annotation_pages": [
+      16,
+      20
+    ],
+    "updates": {
+      "year": 2024,
+      "family": "context-conditioned policies",
+      "context": "retrieved demonstration records selected for the current query",
+      "action_mechanism": "retrieved examples condition a learned action generator; the survey compares this with direct Retrieve-and-Play",
+      "test_time_weights": "branch-dependent: frozen policy and fine-tuning comparison",
+      "setting": "unseen MuJoCo embodiments in the comparison discussed by the survey",
+      "evidence": "In the surveyed unseen-embodiment comparison, Retrieve-and-Play outperforms the frozen contextual transformer; fine-tuning improves the learned agent.",
+      "why_it_matters": "Separates useful retrieved actions from the learned ability to interpret those actions under distribution shift.",
+      "adaptation_target": "unseen embodiment",
+      "evidence_tier": "simulation comparison",
+      "limitation": "The frozen contextual branch and the fine-tuned comparison have different deployment update regimes."
+    },
+    "notes": [
+      "Appendix A, Table A1 (PDF p. 96): C, first public year 2024.",
+      "The bibliography cites the ICLR 2025 publication, while Appendix A uses its 2024 first public year.",
+      "Replaces a blanket frozen-weights claim with the branch distinction made in the survey."
+    ]
+  },
+  {
+    "paper_id": "instant-policy-2024",
+    "survey_reference": 16,
+    "annotation_pages": [
+      13,
+      18,
+      19,
+      42
+    ],
+    "updates": {
+      "year": 2024,
+      "family": "context-conditioned policies",
+      "context": "demonstration geometry and state/action records",
+      "action_mechanism": "spatial graph representations encode demonstration correspondence before graph-diffusion action generation",
+      "test_time_weights": "frozen",
+      "setting": "manipulation examples with differently shaped boxes in the survey discussion",
+      "evidence": "The survey uses Instant Policy to show that additional demonstrations can disambiguate the intended task, provided action coordinates and semantics remain compatible.",
+      "why_it_matters": "Makes geometric context part of action inference and exposes ambiguity that one demonstration can leave unresolved.",
+      "adaptation_target": "task interpretation and spatial correspondence",
+      "evidence_tier": "method discussion in survey",
+      "limitation": "Additional demonstrations must agree on the intended intervention and use compatible control conventions.",
+      "context_budget": null
+    },
+    "notes": [
+      "Appendix A, Table A1 (PDF p. 96): C, first public year 2024.",
+      "Table 3 explicitly states fixed neural components for its listed deployment branches.",
+      "The survey passages do not establish the old exact 1–2 demonstration budget or the full simulation/physical evaluation claim."
+    ]
+  },
+  {
+    "paper_id": "icrt-2024",
+    "survey_reference": 13,
+    "annotation_pages": [
+      15,
+      18,
+      19,
+      42,
+      43,
+      66
+    ],
+    "updates": {
+      "year": 2024,
+      "family": "context-conditioned policies",
+      "context": "sensorimotor demonstrations supplying observations and recorded actions, followed by the execution history",
+      "action_mechanism": "causal sensorimotor sequence modeling reads demonstration evidence and decodes actions without linguistic data",
+      "test_time_weights": "frozen",
+      "setting": "shared test tasks comparing DROID-only and multi-task training data",
+      "evidence": "The survey reports no progress for the selected DROID-only training condition; multi-task scenes supply different required actions from similar initial observations.",
+      "why_it_matters": "Shows why training must make the demonstration informative about the correct continuation.",
+      "adaptation_target": "task specified by sensorimotor teaching",
+      "evidence_tier": "controlled training-data comparison",
+      "limitation": "The cited comparison concerns selected training-data conditions; it does not establish broad cross-embodiment transfer.",
+      "context_budget": null
+    },
+    "notes": [
+      "Appendix A, Table A1 (PDF p. 96): C, first public year 2024.",
+      "Table B2 (p. 97) describes a demonstration prefix and appended own trajectory.",
+      "Replaces unsupported platform and prompt-count specificity with the comparison actually discussed in the survey."
+    ]
+  },
+  {
+    "paper_id": "amago-2023",
+    "survey_reference": 202,
+    "annotation_pages": [
+      33,
+      65
+    ],
+    "updates": {
+      "year": 2023,
+      "family": "context-conditioned policies",
+      "context": "trial history and feedback retained across episodes",
+      "action_mechanism": "an in-context reinforcement-learning policy uses retained experience to infer the task",
+      "test_time_weights": "frozen",
+      "setting": "MetaWorld ML-1 analysis discussed in the survey",
+      "evidence": "The survey reports that short histories can identify hidden goals in the cited MetaWorld setting, while longer contexts can reduce sample efficiency.",
+      "why_it_matters": "Demonstrates that useful history length depends on the unknown information rather than context capacity alone.",
+      "adaptation_target": "hidden task goal",
+      "evidence_tier": "simulation analysis",
+      "limitation": "The short-history result is specific to the cited MetaWorld setting."
+    },
+    "notes": [
+      "Appendix A, Table A1 (PDF p. 96): C, first public year 2023.",
+      "Table B2 (p. 97) lists AMAGO among interaction histories with fixed neural parameters.",
+      "The bibliography cites ICLR 2024; Appendix A uses first public year 2023."
+    ]
+  },
+  {
+    "paper_id": "vima-2022",
+    "survey_reference": 100,
+    "annotation_pages": [
+      13,
+      59,
+      63
+    ],
+    "updates": {
+      "year": 2022,
+      "family": "context-conditioned policies",
+      "context": "multimodal task prompts carrying goal and procedural information",
+      "action_mechanism": "a context-conditioned policy uses multimodal task specifications for action inference",
+      "test_time_weights": "not detailed in the cited survey passages",
+      "setting": "task and object-combination generalization discussed in the survey",
+      "evidence": "The survey distinguishes new object combinations from new task templates when interpreting VIMA generalization.",
+      "why_it_matters": "Illustrates how prompt content and the type of held-out task relation affect a transfer claim.",
+      "adaptation_target": "task specification and held-out relations",
+      "evidence_tier": "generalization discussion in survey",
+      "limitation": "A new object combination and a new task template test different generalization; prompt conditioning alone does not establish learning a new relation."
+    },
+    "notes": [
+      "Appendix A, Table A1 (PDF p. 96): C, first public year 2022.",
+      "Appendix A supplies the method family; the survey does not repeat the old exact four-level evaluation protocol."
+    ]
+  },
+  {
+    "paper_id": "one-shot-imitation-2017",
+    "survey_reference": 1,
+    "annotation_pages": [
+      12,
+      41,
+      47
+    ],
+    "updates": {
+      "year": 2017,
+      "family": "context-conditioned policies",
+      "context": "one support demonstration specifying the behavior of a paired query execution",
+      "action_mechanism": "paired-execution training teaches a contextual policy to infer query actions from a support episode",
+      "test_time_weights": "fixed contextual deployment",
+      "setting": "early task-family adaptation and support–query training",
+      "evidence": "The survey identifies this work as an early paired-execution principle: one task instance teaches how to act in another.",
+      "why_it_matters": "Provides the training principle underlying later demonstration-conditioned policies.",
+      "adaptation_target": "another instance of the demonstrated task",
+      "evidence_tier": "historical and training-method discussion",
+      "limitation": "The survey describes adaptation within a trained task family; the cited discussion does not establish broad cross-embodiment transfer.",
+      "context_budget": "1 support demonstration"
+    },
+    "notes": [
+      "Appendix A, Table A1 (PDF p. 96): C, first public year 2017."
+    ]
+  },
+  {
+    "paper_id": "ici-vla-2026",
+    "survey_reference": 18,
+    "annotation_pages": [
+      19
+    ],
+    "updates": {
+      "year": 2026,
+      "family": "context-conditioned policies",
+      "context": "phase-aligned micro-demonstrations retrieved for observable query inputs",
+      "action_mechanism": "a retriever trained with dynamic-time-warping supervision selects examples for the deployed action generator",
+      "test_time_weights": "not detailed in the cited survey passage",
+      "setting": "phase selection for vision-language-action inference",
+      "evidence": "The survey describes phase-aligned retrieval and target-action masking during training to reduce reliance on exact action-prefix continuation.",
+      "why_it_matters": "Separates selecting the relevant execution phase from generating the action block.",
+      "adaptation_target": "demonstration phase and task execution",
+      "evidence_tier": "method discussion in survey",
+      "limitation": "The survey describes the retrieval and training interface; detailed benchmark protocols and physical evaluation counts require the primary paper."
+    },
+    "notes": [
+      "Appendix A, Table A1 (PDF p. 96): C, first public year 2026.",
+      "Survey bibliography explicitly cites version 1, accessed 11 September 2026."
+    ]
+  },
+  {
+    "paper_id": "zeva-2026",
+    "survey_reference": 88,
+    "annotation_pages": [
+      32,
+      54,
+      59,
+      65,
+      66
+    ],
+    "updates": {
+      "year": 2026,
+      "family": "context-conditioned policies",
+      "context": "action–effect history retained at two timescales and reused across attempts",
+      "action_mechanism": "a fixed policy uses retained action effects to guide subsequent control",
+      "test_time_weights": "frozen",
+      "setting": "five real tasks in the persistent-memory comparison reported in Table 16",
+      "evidence": "The survey reports a 10–20 percentage-point success gain from enabling persistent memory on five real tasks, with a brief trace retained.",
+      "why_it_matters": "Connects cross-attempt experience reuse to a controlled memory intervention.",
+      "adaptation_target": "physical response across attempts",
+      "evidence_tier": "physical robot comparison",
+      "limitation": "Access to prior experience and cumulative success over retries are different quantities; this comparison does not establish an improved learning rule."
+    },
+    "notes": [
+      "Appendix A, Table A1 (PDF p. 96): C, first public year 2026.",
+      "Avoids attributing the phase-matched Zeva-Ego mechanism to Zeva: p. 32 distinguishes them."
+    ]
+  },
+  {
+    "paper_id": "icwm-2026",
+    "survey_reference": 41,
+    "annotation_pages": [
+      11,
+      19,
+      32
+    ],
+    "updates": {
+      "year": 2026,
+      "family": "context-conditioned policies",
+      "context": "task-agnostic probes that reveal action effects before task execution",
+      "action_mechanism": "infers physical context from transitions and conditions an action policy directly",
+      "test_time_weights": "frozen",
+      "setting": "adaptation to changes in observation and embodiment",
+      "evidence": "The survey identifies ICWM as physical-context inference from probes; its inferred representation directly conditions the action policy.",
+      "why_it_matters": "Distinguishes inferring a present system response from predicting future consequences for control.",
+      "adaptation_target": "observation and embodiment conditions",
+      "evidence_tier": "method discussion in survey",
+      "limitation": "The world-model wording in the title does not make its surveyed deployment interface world-model-based control."
+    },
+    "notes": [
+      "Appendix A, Table A1 (PDF p. 96): C, first public year 2026.",
+      "Appendix A assigns C, not W; pp. 11 and 19 explicitly explain the distinction.",
+      "Replaces the old viewpoint-only limitation with the broader scope actually stated in the survey, without inventing experimental evidence."
+    ]
+  },
+  {
+    "paper_id": "bpp-2026",
+    "survey_reference": 54,
+    "annotation_pages": [
+      18,
+      20,
+      42,
+      43,
+      55
+    ],
+    "updates": {
+      "year": 2026,
+      "family": "context-conditioned policies",
+      "context": "sensorimotor behavior demonstrations grouped by the intended task",
+      "action_mechanism": "encodes behavior prompts to condition action decoding",
+      "test_time_weights": "frozen",
+      "setting": "DrawAnything and a three-task laundry study discussed by the survey",
+      "evidence": "At a fixed 10,000 drawing demonstrations, greater task diversity reduces reported Chamfer error; in the laundry study, language is more reliable than behavior demonstrations.",
+      "why_it_matters": "Shows that demonstrations help when they communicate choices of path or order beyond a task label or goal image.",
+      "adaptation_target": "task-specific procedure and trajectory",
+      "evidence_tier": "drawing and laundry comparisons",
+      "limitation": "The benefit depends on what teaching must convey and on training diversity; behavior prompting does not dominate language in every setting.",
+      "context_budget": null
+    },
+    "notes": [
+      "Appendix A, Table A1 (PDF p. 96): C, first public year 2026.",
+      "The survey identifies BPP prompts as sensorimotor; it should not be described as ordinary RGB video alone.",
+      "Replaces unsupported LIBERO-Gen, iPhUMI, and exact one-demonstration claims with surveyed evidence."
+    ]
+  },
+  {
+    "paper_id": "robossm-2025",
+    "survey_reference": null,
+    "annotation_pages": [],
+    "updates": {},
+    "notes": [
+      "No bibliography entry or Appendix A assignment found for RoboSSM or arXiv:2509.19658 in this repository survey PDF. Keep outside the survey reference collection; do not force a match.",
+      "Previous website annotation is not validated by this survey."
+    ]
+  },
+  {
+    "paper_id": "ricl-2025",
+    "survey_reference": 17,
+    "annotation_pages": [
+      16,
+      18,
+      20
+    ],
+    "updates": {
+      "year": 2025,
+      "family": "context-conditioned policies",
+      "context": "retrieved demonstrations selected for the current query",
+      "action_mechanism": "retrieval and context encoding condition a learned action generator",
+      "test_time_weights": "frozen",
+      "setting": "adding a demonstration interface to an existing action generator",
+      "evidence": "The survey contrasts conditioning a generator on retrieved demonstrations with directly returning their recorded actions.",
+      "why_it_matters": "Places retrieval in the context-selection stage while the learned generator interprets the example.",
+      "adaptation_target": "behavior specified by retrieved demonstrations",
+      "evidence_tier": "method discussion in survey",
+      "limitation": "Retrieval quality and the generator’s ability to interpret the retrieved evidence are separate sources of generalization.",
+      "context_budget": null
+    },
+    "notes": [
+      "Appendix A, Table A1 (PDF p. 96): C, first public year 2025.",
+      "Table 3 explicitly fixes neural components at deployment; Table B2 (p. 97) specifies query-dependent demonstration selection.",
+      "The cited survey passages do not establish the old 10–20 or 20-demonstration budget."
+    ]
+  },
+  {
+    "paper_id": "relic-2024",
+    "survey_reference": 203,
+    "annotation_pages": [
+      33,
+      42,
+      57,
+      64,
+      73
+    ],
+    "updates": {
+      "year": 2024,
+      "family": "context-conditioned policies",
+      "context": "multi-episode visual experience accumulated within one unfamiliar home",
+      "action_mechanism": "cross-episode attention uses retained spatial experience for later navigation goals",
+      "test_time_weights": "frozen",
+      "setting": "navigation with changing starts and goals in one home",
+      "evidence": "The survey discusses cross-episode attention as a test of within-environment experience reuse, including locating objects in an unfamiliar home.",
+      "why_it_matters": "Separates reusable local spatial knowledge from a particular route or goal.",
+      "adaptation_target": "environment-specific spatial knowledge",
+      "evidence_tier": "navigation comparison in survey",
+      "limitation": "A remembered location is tied to a layout; transfer requires identifying which spatial facts remain valid when the environment changes.",
+      "context_budget": "up to 64k interaction steps (paper title)"
+    },
+    "notes": [
+      "Appendix A, Table A1 (PDF p. 96): C, first public year 2024."
+    ]
+  },
+  {
+    "paper_id": "kat-2024",
+    "survey_reference": 15,
+    "annotation_pages": [
+      18,
+      19,
+      20
+    ],
+    "updates": {
+      "year": 2024,
+      "family": "context-conditioned policies",
+      "context": "keypoint–action examples available before rollout",
+      "action_mechanism": "encodes keypoint and action records for inference with a text-pretrained model",
+      "test_time_weights": "frozen",
+      "setting": "teaching-budget comparison with KeyAct-DP",
+      "evidence": "The survey reports that contextual inference is competitive with few examples, while policy training becomes stronger with more; the crossover changes with representation.",
+      "why_it_matters": "Shows that the useful demonstration budget depends jointly on representation and adaptation mechanism.",
+      "adaptation_target": "demonstrated task behavior",
+      "evidence_tier": "teaching-budget comparison",
+      "limitation": "Keypoint representation and the comparison policy affect the crossover; the result is not a general claim that frozen inference always beats training."
+    },
+    "notes": [
+      "Appendix A, Table A1 (PDF p. 96): C, first public year 2024.",
+      "Table 3 states fixed neural components at deployment; Table B2 (p. 97) describes loading keypoint–action examples before rollout."
+    ]
+  },
+  {
+    "paper_id": "visual-memory-2018",
+    "survey_reference": 356,
+    "annotation_pages": [
+      19,
+      42,
+      57
+    ],
+    "updates": {
+      "year": 2018,
+      "family": "context-conditioned policies",
+      "context": "ordered views and recorded actions from a demonstrated route",
+      "action_mechanism": "encodes an action-bearing path memory that guides execution under noise and scene changes",
+      "test_time_weights": "not detailed in the cited survey passages",
+      "setting": "route following under motion noise and scene changes",
+      "evidence": "The survey contrasts RPF’s action-bearing route memory with visual subgoals and with environment previews for new navigation goals.",
+      "why_it_matters": "Makes the difference between following a taught route and learning reusable scene knowledge explicit.",
+      "adaptation_target": "demonstrated route",
+      "evidence_tier": "navigation method discussion",
+      "limitation": "A route recording prescribes a path; it does not by itself establish general navigation knowledge for arbitrary new goals."
+    },
+    "notes": [
+      "Appendix A, Table A1 (PDF p. 96): C, first public year 2018.",
+      "The survey refers to this work as RPF and assigns it to context-conditioned policies.",
+      "The old count of two simulators is not established by the cited survey passages."
+    ]
+  },
+  {
+    "paper_id": "bicicle-2026",
+    "survey_reference": 92,
+    "annotation_pages": [
+      18,
+      20,
+      56
+    ],
+    "updates": {
+      "year": 2026,
+      "family": "context-conditioned policies",
+      "context": "ten demonstrations per task in the main TWIN experiments",
+      "action_mechanism": "conditions one arm’s predicted trajectory on the other’s prediction, with iterative refinement and candidate selection",
+      "test_time_weights": "frozen",
+      "setting": "TWIN bimanual manipulation experiments",
+      "evidence": "The survey reports ten demonstrations per main TWIN task and highlights added inference computation for refinement and selection.",
+      "why_it_matters": "Preserves inter-arm dependence while reducing the joint action-prediction problem.",
+      "adaptation_target": "coordinated bimanual behavior",
+      "evidence_tier": "robotics benchmark",
+      "limitation": "Performance relies on perception, coordinate conventions, action representations, and the inference budget.",
+      "context_budget": "10 demonstrations per task in main TWIN experiments"
+    },
+    "notes": [
+      "Appendix A, Table A1 (PDF p. 96): C, first public year 2026.",
+      "The survey does not repeat the old thirteen-task count or establish physical robot performance for this entry."
+    ]
+  },
+  {
+    "paper_id": "iclr-visual-reasoning-2026",
+    "survey_reference": 181,
+    "annotation_pages": [
+      25,
+      26
+    ],
+    "updates": {
+      "year": 2026,
+      "family": "context-conditioned policies",
+      "context": "demonstration evidence and motion-specific visual reasoning supervision",
+      "action_mechanism": "gripper-trace supervision shapes action representations; reasoning dropout permits execution without generating those traces",
+      "test_time_weights": "not detailed in the cited survey passage",
+      "setting": "auxiliary predictive supervision for context-conditioned action inference",
+      "evidence": "The survey discusses this reference alongside SeeTraceAct to distinguish trace supervision from a future prediction required during control.",
+      "why_it_matters": "Shows why prediction during training does not by itself imply a predictive deployment interface.",
+      "adaptation_target": "demonstration-conditioned actions",
+      "evidence_tier": "training/deployment distinction in survey",
+      "limitation": "Do not claim that every deployed decision must generate explicit visual reasoning traces; the survey describes a branch that omits them."
+    },
+    "notes": [
+      "Appendix A, Table A1 (PDF p. 96): C, first public year 2026.",
+      "Appendix A assigns C, not W.",
+      "Replaces the old unconditional claim that the deployed transformer generates both reasoning traces and actions."
+    ]
+  },
+  {
+    "paper_id": "roboprompt-2024",
+    "survey_reference": 153,
+    "annotation_pages": [
+      15,
+      18,
+      20
+    ],
+    "updates": {
+      "year": 2024,
+      "family": "context-conditioned policies",
+      "context": "numerical object poses and keyframe end-effector action examples serialized for a language model",
+      "action_mechanism": "a frozen language model parses structured examples and predicts robot actions",
+      "test_time_weights": "frozen",
+      "setting": "textual action inference using structured robot state and demonstrations",
+      "evidence": "The survey identifies object poses and keyframe end-effector actions as the interface through which a text-pretrained model receives robot examples.",
+      "why_it_matters": "Exposes the coordinate and representation work required to make language-model outputs physically meaningful.",
+      "adaptation_target": "action interpretation from structured examples",
+      "evidence_tier": "method discussion in survey",
+      "limitation": "The interface depends on perception, coordinate conventions, and action representations; it is not raw-image prompting alone."
+    },
+    "notes": [
+      "Appendix A, Table A1 (PDF p. 96): C, first public year 2024."
+    ]
+  },
+  {
+    "paper_id": "prompt-dt-2022",
+    "survey_reference": 5,
+    "annotation_pages": [
+      4,
+      13
+    ],
+    "updates": {
+      "year": 2022,
+      "family": "context-conditioned policies",
+      "context": "trajectory prompts containing earlier observations and actions",
+      "action_mechanism": "a sequence policy uses trajectory evidence to condition later decisions",
+      "test_time_weights": "not detailed in the cited survey passages",
+      "setting": "historical trajectory-model route to few-shot policy generalization",
+      "evidence": "The survey places Prompt-DT among sequence interfaces that retain observations and actions as evidence for later decisions.",
+      "why_it_matters": "Provides an early trajectory-prompting reference in the development of contextual policies.",
+      "adaptation_target": "policy generalization through trajectory prompts",
+      "evidence_tier": "historical discussion in survey",
+      "limitation": "The survey discusses trajectory prompting; it does not provide a complete benchmark protocol or an exact prompt budget.",
+      "context_budget": null
+    },
+    "notes": [
+      "Appendix A, Table A1 (PDF p. 96): C, first public year 2022."
+    ]
+  },
+  {
+    "paper_id": "demodiffusion-2025",
+    "survey_reference": 155,
+    "annotation_pages": [
+      17
+    ],
+    "updates": {
+      "year": 2025,
+      "family": "context-conditioned policies",
+      "context": "retargeted human motion used as an action proposal",
+      "action_mechanism": "a pretrained diffusion policy refines the retargeted motion proposal into the final robot motion",
+      "test_time_weights": "not detailed in the cited survey passage",
+      "setting": "hybrid of geometric correspondence and learned action generation",
+      "evidence": "The survey contrasts DemoDiffusion’s learned refinement with IMOP’s direct transfer of a demonstrated end-effector pose.",
+      "why_it_matters": "Shows that using geometric correspondence does not make reference tracking the primary control interface.",
+      "adaptation_target": "motion transfer through a learned action prior",
+      "evidence_tier": "method comparison in survey",
+      "limitation": "Retargeting quality and the learned diffusion prior both contribute to the final motion; the cited passage does not detail the physical evaluation protocol.",
+      "context_budget": null
+    },
+    "notes": [
+      "Appendix A, Table A1 (PDF p. 96): C, first public year 2025.",
+      "Corrects the old geometric-only family: Appendix A places reference 155 in C (2025)."
+    ]
+  },
+  {
+    "paper_id": "imop-2024",
+    "survey_reference": 156,
+    "annotation_pages": [
+      17,
+      20
+    ],
+    "updates": {
+      "year": 2024,
+      "family": "geometric demonstration transfer",
+      "context": "a demonstration supplying the next end-effector pose",
+      "action_mechanism": "registration aligns the relevant demonstration transition and transfers an explicit target pose for execution",
+      "test_time_weights": "not detailed in the cited survey passage",
+      "setting": "geometric transfer of a demonstrated manipulation transition",
+      "evidence": "The survey identifies the target pose as an executable reference and assigns more of the transfer burden to geometric applicability.",
+      "why_it_matters": "Contrasts direct reference transfer with learned refinement of a motion proposal.",
+      "adaptation_target": "geometric applicability of the demonstrated motion",
+      "evidence_tier": "method comparison in survey",
+      "limitation": "The geometric match must remain applicable to the current scene; benchmark details and physical transfer results require the primary paper.",
+      "context_budget": null
+    },
+    "notes": [
+      "Appendix A, Table A1 (PDF p. 96): G, first public year 2024."
+    ]
+  },
+  {
+    "paper_id": "zero-wam-2026",
+    "survey_reference": 24,
+    "annotation_pages": [
+      11,
+      24,
+      25,
+      26,
+      30
+    ],
+    "updates": {
+      "year": 2026,
+      "family": "world-model-based control",
+      "context": "human demonstration video and recent robot observation history",
+      "action_mechanism": "a video model generates a future clip that conditions the action model during deployment",
+      "test_time_weights": "frozen",
+      "setting": "human-video-conditioned world-action control",
+      "evidence": "Figure 11 explicitly shows both video and action branches frozen at deployment, with generated future video replacing recorded future video.",
+      "why_it_matters": "Retains a predicted future on the deployed action path, separating it from auxiliary future supervision.",
+      "adaptation_target": "task procedure conveyed by human video",
+      "evidence_tier": "deployment architecture in survey",
+      "limitation": "The predicted future must preserve the demonstrated procedure and remain physically realizable. Detailed evaluation protocols require the primary paper."
+    },
+    "notes": [
+      "Appendix A, Table A1 (PDF p. 96): W, first public year 2026.",
+      "Corrects the old limitation: prediction is not merely a training objective in the branch described by this survey; generated future video is used at deployment."
+    ]
+  },
+  {
+    "paper_id": "decompose-recompose-2026",
+    "survey_reference": null,
+    "annotation_pages": [],
+    "updates": {},
+    "notes": [
+      "No bibliography entry or Appendix A assignment found for Decompose and Recompose: Reasoning New Skills from Existing Abilities for Cross-Task Robotic Manipulation or arXiv:2605.01448 in this repository survey PDF. Keep outside the survey reference collection; do not force a match.",
+      "Previous website annotation is not validated by this survey."
+    ]
+  }
+]

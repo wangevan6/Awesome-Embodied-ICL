@@ -1,0 +1,11 @@
+__pycache__/
+*.py[cod]
+.DS_Store
+_site/
+
+# Local scratch downloads, previews, and one-off editing scripts.
+tmp/
+
+# Source PDFs stay out of the repository: our manuscript is not public yet, and the
+# external survey is linked on arXiv. Keep local copies here for extraction only.
+*.pdf

@@ -1,0 +1,25 @@
+name: Suggest a paper
+description: Propose a source-backed catalogue entry
+title: "Paper: "
+body:
+  - type: input
+    id: source
+    attributes:
+      label: Primary paper URL
+      description: Prefer arXiv, proceedings, or an author-hosted paper.
+    validations:
+      required: true
+  - type: textarea
+    id: context
+    attributes:
+      label: Deployment context and adaptation target
+      description: What information does the agent receive for a new target, and what changes?
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Evidence and limits
+      description: State the experiment, its setting, and one important interpretation limit. Point to the relevant paper section.
+    validations:
+      required: true

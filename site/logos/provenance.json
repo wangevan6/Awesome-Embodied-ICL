@@ -1,0 +1,75 @@
+{
+  "purpose": "Logos identify manuscript author affiliations; they do not imply institutional sponsorship or endorsement.",
+  "affiliations_source": "Our manuscript, first page. These are distinct from the external survey authors shown in the design reference.",
+  "asset_policy": "Original assets from institution pages or an author-maintained homepage, bundled locally without redrawing. File extensions match the delivered format.",
+  "assets": [
+    {
+      "file": "logos/hku.svg",
+      "url": "https://www.hku.hk/adobe/dynamicmedia/deliver/dm-aid--afc8d43c-587a-43f0-b93c-26f8bd397e0e/logo-hku.svg.webp?width=416&preferwebp=true"
+    },
+    {
+      "file": "logos/fudan.png",
+      "url": "https://www.fudan.edu.cn/_upload/site/00/02/2/logo.png"
+    },
+    {
+      "file": "logos/yale.png",
+      "url": "https://www.yale.edu/sites/all/themes/yale_blue/images/logo-print.png"
+    },
+    {
+      "file": "logos/tokyo.svg",
+      "url": "https://www.u-tokyo.ac.jp/content/400244322.svg"
+    },
+    {
+      "file": "logos/weimar.png",
+      "url": "https://www.uni-weimar.de/_assets/c4c9b3f3949e08165dae889ff24f60ce/css/images/logo_bw.png?1754721507"
+    },
+    {
+      "file": "logos/polimi.svg",
+      "url": "https://www.polimi.it/_assets/4b51f00386267395f41e0940abbcd656/Images/logo.svg"
+    },
+    {
+      "file": "logos/usi.svg",
+      "url": "https://www.usi.ch/sites/all/themes/usiclean/img/bollino-usi.svg"
+    },
+    {
+      "file": "logos/ntu.png",
+      "url": "https://www.ntu.edu.sg/ResourcePackages/NTU/assets/images/NTU_Logo.png"
+    },
+    {
+      "file": "logos/manifold.png",
+      "url": "https://suhaisheng.github.io/assets/logos/manifold-ai.png"
+    },
+    {
+      "file": "logos/coowa.jpeg",
+      "url": "https://www.cowarobot.com/footer/sitelogo.jpeg"
+    },
+    {
+      "file": "logos/unix.png",
+      "url": "https://www.unix-group.ai/public/static/index/en/images/logo2.png"
+    },
+    {
+      "file": "logos/efort.png",
+      "url": "https://lingjuimg.com/wp-content/uploads/Jiqiren/2025/07/logo.png"
+    },
+    {
+      "file": "logos/teleai.svg",
+      "url": "https://cdn02.teleai.com.cn/ssr_static/img/head-logo.CLCS1sO7.svg"
+    },
+    {
+      "file": "logos/inspire.webp",
+      "url": "https://en.inspire-robots.com/wp-content/uploads/2023/09/%E8%8B%B1%E6%96%87%E6%A8%AA%E7%89%88%E7%BB%84%E5%90%88-3.png"
+    },
+    {
+      "file": "sjtu-emblem.png",
+      "source_page": "https://130.sjtu.edu.cn/en/service",
+      "url": "https://130.sjtu.edu.cn/storage/dwxcb/anniversary/en/file/2025/12/78b54bdb90d11870709ae5904835d012.rar",
+      "archive_member": "上海交通大学校标PNG文件/校标-校徽.png"
+    }
+  ],
+  "name_only": [
+    "CoreNetic AI",
+    "Gamma Robotics",
+    "KeepOne AI",
+    "University of Cyprus"
+  ]
+}

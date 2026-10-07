@@ -1,0 +1,1298 @@
+{
+  "source": "manuscript",
+  "authority": "Figure 2, manuscript p. 4; reference identities resolved with bibliography pp. 13–15. Categories reproduce this roadmap, not exhaustive claims about each method. RICL has both gradient-free and update-optional configurations.",
+  "unmapped_policy": "Keep every external reference. Empty axes mean not yet mapped from the manuscript roadmap, not absence of in-context learning. Manuscript-only works remain in this mapping with null external_reference.",
+  "references": [
+    {
+      "manuscript_reference": 6,
+      "name": "π0.7",
+      "title": "π0.7: a steerable generalist robotic foundation model with emergent capabilities",
+      "citation": "P. Intelligence, B. Ai, A. Amin, R. Aniceto, A. Balakrishna, G. Balke, K. Black, G. Bokinsky, S. Cao, T. Charbonnier et al., “π0.7: a steerable generalist robotic foundation model with emergent capabilities,” arXiv preprint arXiv:2604.15483, 2026.",
+      "external_reference": 281,
+      "match_basis": "Same arXiv identifier or matching bibliographic title",
+      "forms": [
+        "multimodal"
+      ],
+      "roles": [
+        "task"
+      ],
+      "self_built": false,
+      "adaptation": [
+        "gradient-free"
+      ],
+      "areas": [],
+      "manuscript_pages": [
+        4
+      ]
+    },
+    {
+      "manuscript_reference": 7,
+      "name": "ICRT",
+      "title": "In-context imitation learning via next-token prediction",
+      "citation": "L. Fu, H. Huang, G. Datta, L. Y. Chen, W. C.-H. Panitch, F. Liu, H. Li, and K. Goldberg, “In-context imitation learning via next-token prediction,” arXiv preprint arXiv:2408.15980, 2024.",
+      "external_reference": 13,
+      "match_basis": "Same arXiv identifier or matching bibliographic title",
+      "forms": [
+        "trajectory"
+      ],
+      "roles": [
+        "behavior"
+      ],
+      "self_built": false,
+      "adaptation": [
+        "gradient-free"
+      ],
+      "areas": [],
+      "manuscript_pages": [
+        4
+      ]
+    },
+    {
+      "manuscript_reference": 8,
+      "name": "Instant Policy",
+      "title": "Instant policy: In-context imitation learning via graph diffusion",
+      "citation": "V. Vosylius and E. Johns, “Instant policy: In-context imitation learning via graph diffusion,” in International Conference on Learning Represen- tations, vol. 2025, 2025, pp. 35 011–35 030.",
+      "external_reference": 16,
+      "match_basis": "Same arXiv identifier or matching bibliographic title",
+      "forms": [
+        "trajectory"
+      ],
+      "roles": [
+        "behavior"
+      ],
+      "self_built": false,
+      "adaptation": [
+        "gradient-free"
+      ],
+      "areas": [],
+      "manuscript_pages": [
+        4
+      ]
+    },
+    {
+      "manuscript_reference": 9,
+      "name": "RoboTTT",
+      "title": "Robottt: Context scaling for robot policies",
+      "citation": "Y. Jiang, Y. Chebotar, R. Zheng, F. Hu, Y. Ge, J. Wu, T. Dai, S. Reed, L. Fei-Fei, Y. Zhu et al., “Robottt: Context scaling for robot policies,” arXiv preprint arXiv:2607.15275, 2026.",
+      "external_reference": 10,
+      "match_basis": "Same arXiv identifier or matching bibliographic title",
+      "forms": [
+        "trajectory"
+      ],
+      "roles": [],
+      "self_built": false,
+      "adaptation": [
+        "update-dependent"
+      ],
+      "areas": [],
+      "manuscript_pages": [
+        4
+      ]
+    },
+    {
+      "manuscript_reference": 10,
+      "name": "Zero-WAM",
+      "title": "Zero-wam: In-context world-action modeling from human videos for open-ended task generalization",
+      "citation": "J. Zhou, Q. Zhang, G. Xu, C. Fan, Y. Zhao, R. Wang, Y. Luo, S. Yang, X. Zhu, Y. Shen et al., “Zero-wam: In-context world-action modeling from human videos for open-ended task generalization,” arXiv preprint arXiv:2608.26103, 2026.",
+      "external_reference": 24,
+      "match_basis": "Same arXiv identifier or matching bibliographic title",
+      "forms": [
+        "visual"
+      ],
+      "roles": [
+        "task"
+      ],
+      "self_built": false,
+      "adaptation": [],
+      "areas": [
+        "cross-task-evaluation"
+      ],
+      "manuscript_pages": [
+        4
+      ]
+    },
+    {
+      "manuscript_reference": 11,
+      "name": "GPT-Policy",
+      "title": "In-context robot learning with vlm agents",
+      "citation": "D. Cheng, T. Yi, Y. Fang, X. Zhang, F. Feng, Y. Li, G. Zhuang, R. Wang, S. Yang, W. Song et al., “In-context robot learning with vlm agents,” arXiv preprint arXiv:2609.19138, 2026.",
+      "external_reference": 94,
+      "match_basis": "Same arXiv identifier or matching bibliographic title",
+      "forms": [
+        "multimodal"
+      ],
+      "roles": [],
+      "self_built": false,
+      "adaptation": [
+        "gradient-free"
+      ],
+      "areas": [],
+      "manuscript_pages": [
+        4
+      ]
+    },
+    {
+      "manuscript_reference": 12,
+      "name": "Algorithm Distillation",
+      "title": "In-context reinforcement learning with algorithm distillation",
+      "citation": "M. Laskin, L. Wang, J. Oh, E. Parisotto, S. Spencer, R. Steiger- wald, D. Strouse, S. Hansen, A. Filos, E. Brooks et al., “In-context reinforcement learning with algorithm distillation,” arXiv preprint arXiv:2210.14215, 2022. IEEE TRANSACTIONS ON ROBOTICS, VOL. XX, NO. X, MONTH 2026 14",
+      "external_reference": 6,
+      "match_basis": "Same arXiv identifier or matching bibliographic title",
+      "forms": [
+        "trajectory"
+      ],
+      "roles": [
+        "behavior"
+      ],
+      "self_built": false,
+      "adaptation": [],
+      "areas": [],
+      "manuscript_pages": [
+        4
+      ]
+    },
+    {
+      "manuscript_reference": 13,
+      "name": "KAT",
+      "title": "Keypoint action tokens enable in-context imitation learning in robotics",
+      "citation": "N. Di Palo and E. Johns, “Keypoint action tokens enable in-context imitation learning in robotics,” arXiv preprint arXiv:2403.19578, 2024.",
+      "external_reference": 15,
+      "match_basis": "Same arXiv identifier or matching bibliographic title",
+      "forms": [
+        "text"
+      ],
+      "roles": [],
+      "self_built": false,
+      "adaptation": [],
+      "areas": [],
+      "manuscript_pages": [
+        4
+      ]
+    },
+    {
+      "manuscript_reference": 14,
+      "name": "GPM",
+      "title": "Large language models as general pattern machines",
+      "citation": "S. Mirchandani, F. Xia, P. Florence, B. Ichter, D. Driess, M. G. Arenas, K. Rao, D. Sadigh, and A. Zeng, “Large language models as general pattern machines,” arXiv preprint arXiv:2307.04721, 2023.",
+      "external_reference": null,
+      "match_basis": "No identity match in the preserved external inventory",
+      "forms": [
+        "text"
+      ],
+      "roles": [
+        "behavior"
+      ],
+      "self_built": true,
+      "adaptation": [],
+      "areas": [],
+      "manuscript_pages": [
+        4
+      ]
+    },
+    {
+      "manuscript_reference": 15,
+      "name": "ExpeL",
+      "title": "Expel: Llm agents are experiential learners",
+      "citation": "A. Zhao, D. Huang, Q. Xu, M. Lin, Y.-J. Liu, and G. Huang, “Expel: Llm agents are experiential learners,” in Proceedings of the AAAI Conference on Artificial Intelligence, vol. 38, no. 17, 2024, pp. 19 632–19 642.",
+      "external_reference": null,
+      "match_basis": "No identity match in the preserved external inventory",
+      "forms": [
+        "text"
+      ],
+      "roles": [],
+      "self_built": true,
+      "adaptation": [
+        "gradient-free"
+      ],
+      "areas": [],
+      "manuscript_pages": [
+        4
+      ]
+    },
+    {
+      "manuscript_reference": 16,
+      "name": "LLM-Planner",
+      "title": "Llm-planner: Few-shot grounded planning for embodied agents with large language models",
+      "citation": "C. H. Song, J. Wu, C. Washington, B. M. Sadler, W.-L. Chao, and Y. Su, “Llm-planner: Few-shot grounded planning for embodied agents with large language models,” in Proceedings of the IEEE/CVF international conference on computer vision, 2023, pp. 2998–3009.",
+      "external_reference": null,
+      "match_basis": "No identity match in the preserved external inventory",
+      "forms": [
+        "text"
+      ],
+      "roles": [],
+      "self_built": true,
+      "adaptation": [],
+      "areas": [],
+      "manuscript_pages": [
+        4
+      ]
+    },
+    {
+      "manuscript_reference": 17,
+      "name": "Reflexion",
+      "title": "Re- flexion: Language agents with verbal reinforcement learning",
+      "citation": "N. Shinn, F. Cassano, A. Gopinath, K. Narasimhan, and S. Yao, “Re- flexion: Language agents with verbal reinforcement learning,” Advances in neural information processing systems, vol. 36, pp. 8634–8652, 2023.",
+      "external_reference": null,
+      "match_basis": "No identity match in the preserved external inventory",
+      "forms": [
+        "text"
+      ],
+      "roles": [],
+      "self_built": true,
+      "adaptation": [
+        "gradient-free"
+      ],
+      "areas": [],
+      "manuscript_pages": [
+        4
+      ]
+    },
+    {
+      "manuscript_reference": 18,
+      "name": "HELPER",
+      "title": "Open-ended instructable embodied agents with memory-augmented large language models",
+      "citation": "G. Sarch, Y. Wu, M. Tarr, and K. Fragkiadaki, “Open-ended instructable embodied agents with memory-augmented large language models,” in Findings of the Association for Computational Linguistics: EMNLP 2023, 2023, pp. 3468–3500.",
+      "external_reference": null,
+      "match_basis": "No identity match in the preserved external inventory",
+      "forms": [
+        "text"
+      ],
+      "roles": [],
+      "self_built": true,
+      "adaptation": [],
+      "areas": [],
+      "manuscript_pages": [
+        4
+      ]
+    },
+    {
+      "manuscript_reference": 19,
+      "name": "R+X",
+      "title": "R+ x: Retrieval and execution from everyday human videos",
+      "citation": "G. Papagiannis, N. Di Palo, P. Vitiello, and E. Johns, “R+ x: Retrieval and execution from everyday human videos,” in 2025 IEEE International Conference on Robotics and Automation (ICRA). IEEE, 2025, pp. 8284– 8290.",
+      "external_reference": null,
+      "match_basis": "No identity match in the preserved external inventory",
+      "forms": [
+        "text"
+      ],
+      "roles": [],
+      "self_built": false,
+      "adaptation": [],
+      "areas": [],
+      "manuscript_pages": [
+        4
+      ]
+    },
+    {
+      "manuscript_reference": 20,
+      "name": "StellaVLA",
+      "title": "Stellavla: In-context structured demonstration for generalizable vision-language-action models",
+      "citation": "S. Xu, Y. Wang, Z. Wang, D. Zhu, C. Xia, C. Du, D. Liu, T. Huang, and C. Xu, “Stellavla: In-context structured demonstration for generalizable vision-language-action models,” arXiv preprint arXiv:2608.11671, 2026.",
+      "external_reference": 163,
+      "match_basis": "Same arXiv identifier or matching bibliographic title",
+      "forms": [
+        "text",
+        "multimodal"
+      ],
+      "roles": [],
+      "self_built": false,
+      "adaptation": [],
+      "areas": [
+        "mechanistic-diagnostics"
+      ],
+      "manuscript_pages": [
+        4
+      ]
+    },
+    {
+      "manuscript_reference": 21,
+      "name": "RoboPrompt",
+      "title": "In- context learning enables robot action prediction in llms",
+      "citation": "Y. Yin, Z. Wang, Y. Sharma, D. Niu, T. Darrell, and R. Herzig, “In- context learning enables robot action prediction in llms,” in 2025 IEEE International Conference on Robotics and Automation (ICRA). IEEE, 2025, pp. 8972–8979.",
+      "external_reference": 153,
+      "match_basis": "Same arXiv identifier or matching bibliographic title",
+      "forms": [
+        "text"
+      ],
+      "roles": [],
+      "self_built": false,
+      "adaptation": [],
+      "areas": [],
+      "manuscript_pages": [
+        4
+      ]
+    },
+    {
+      "manuscript_reference": 22,
+      "name": "FLARE",
+      "title": "Multi-modal grounded planning and efficient replanning for learning embodied agents with a few examples",
+      "citation": "T. Kim, B. Kim, and J. Choi, “Multi-modal grounded planning and efficient replanning for learning embodied agents with a few examples,” in Proceedings of the AAAI conference on Artificial Intelligence, vol. 39, no. 4, 2025, pp. 4329–4337.",
+      "external_reference": null,
+      "match_basis": "No identity match in the preserved external inventory",
+      "forms": [
+        "text"
+      ],
+      "roles": [],
+      "self_built": true,
+      "adaptation": [],
+      "areas": [],
+      "manuscript_pages": [
+        4
+      ]
+    },
+    {
+      "manuscript_reference": 23,
+      "name": "Gemini Robotics-ER",
+      "title": "Gemini robotics: Bringing ai into the physical world",
+      "citation": "G. R. Team, S. Abeyruwan, J. Ainslie, J.-B. Alayrac, M. G. Arenas, T. Armstrong, A. Balakrishna, R. Baruch, M. Bauza, M. Blokzijl et al., “Gemini robotics: Bringing ai into the physical world,” arXiv preprint arXiv:2503.20020, 2025.",
+      "external_reference": null,
+      "match_basis": "No identity match in the preserved external inventory",
+      "forms": [
+        "text"
+      ],
+      "roles": [],
+      "self_built": false,
+      "adaptation": [],
+      "areas": [],
+      "manuscript_pages": [
+        4
+      ]
+    },
+    {
+      "manuscript_reference": 24,
+      "name": "MEMENTO",
+      "title": "Embodied agents meet personalization: Investigating challenges and solutions through the lens of memory utilization",
+      "citation": "T. Kwon, D. Choi, H. Kim, S. Kim, S. Moon, B.-w. Kwak, K.-H. Huang, and J. Yeo, “Embodied agents meet personalization: Investigating challenges and solutions through the lens of memory utilization,” in International Conference on Learning Representations, vol. 2026, 2026, pp. 4790–4835.",
+      "external_reference": null,
+      "match_basis": "No identity match in the preserved external inventory",
+      "forms": [
+        "text"
+      ],
+      "roles": [],
+      "self_built": true,
+      "adaptation": [],
+      "areas": [
+        "mechanistic-diagnostics"
+      ],
+      "manuscript_pages": [
+        4
+      ]
+    },
+    {
+      "manuscript_reference": 25,
+      "name": "AGNOSTOS",
+      "title": "Exploring the limits of vision-language-action manipulation in cross-task generalization",
+      "citation": "J. Zhou, K. Ye, J. Liu, T. Ma, Z. Wang, R. Qiu, K.-Y. Lin, Z. Zhao, and J. Liang, “Exploring the limits of vision-language-action manipulation in cross-task generalization,” Advances in Neural Information Processing Systems, vol. 38, pp. 139 899–139 927, 2026.",
+      "external_reference": null,
+      "match_basis": "No identity match in the preserved external inventory",
+      "forms": [
+        "text"
+      ],
+      "roles": [],
+      "self_built": false,
+      "adaptation": [],
+      "areas": [
+        "cross-task-evaluation"
+      ],
+      "manuscript_pages": [
+        4
+      ]
+    },
+    {
+      "manuscript_reference": 26,
+      "name": "BC-Z",
+      "title": "Bc-z: Zero-shot task generalization with robotic imitation learning",
+      "citation": "E. Jang, A. Irpan, M. Khansari, D. Kappler, F. Ebert, C. Lynch, S. Levine, and C. Finn, “Bc-z: Zero-shot task generalization with robotic imitation learning,” in conference on Robot Learning, 2022, pp. 991– 1002.",
+      "external_reference": 148,
+      "match_basis": "Same arXiv identifier or matching bibliographic title",
+      "forms": [
+        "visual"
+      ],
+      "roles": [],
+      "self_built": false,
+      "adaptation": [],
+      "areas": [],
+      "manuscript_pages": [
+        4
+      ]
+    },
+    {
+      "manuscript_reference": 27,
+      "name": "Vid2Robot",
+      "title": "Vid2robot: End-to-end video-conditioned policy learning with cross-attention transformers",
+      "citation": "V. Jain, M. Attarian, N. J. Joshi, A. Wahid, D. Driess, Q. Vuong, P. R. Sanketi, P. Sermanet, S. Welker, C. Chan et al., “Vid2robot: End-to-end video-conditioned policy learning with cross-attention transformers,” arXiv preprint arXiv:2403.12943, 2024.",
+      "external_reference": 14,
+      "match_basis": "Same arXiv identifier or matching bibliographic title",
+      "forms": [
+        "visual"
+      ],
+      "roles": [],
+      "self_built": false,
+      "adaptation": [],
+      "areas": [],
+      "manuscript_pages": [
+        4
+      ]
+    },
+    {
+      "manuscript_reference": 28,
+      "name": "GVL",
+      "title": "Vision language models are in-context value learners",
+      "citation": "Y. J. Ma, J. Hejna, C. Fu, D. Shah, J. Liang, Z. Xu, S. Kirmani, P. Xu, D. Driess, T. Xiao et al., “Vision language models are in-context value learners,” in International Conference on Learning Representations, vol. 2025, 2025, pp. 33 984–34 009.",
+      "external_reference": 83,
+      "match_basis": "Same arXiv identifier or matching bibliographic title",
+      "forms": [
+        "visual"
+      ],
+      "roles": [
+        "state"
+      ],
+      "self_built": false,
+      "adaptation": [],
+      "areas": [],
+      "manuscript_pages": [
+        4
+      ]
+    },
+    {
+      "manuscript_reference": 29,
+      "name": "Human2Robot",
+      "title": "Human2robot: Learning robot actions from paired human- robot videos",
+      "citation": "S. Xie, H. Cao, Z. Weng, Z. Xing, H. Chen, S. Shen, J. Leng, Z. Wu, and Y.-G. Jiang, “Human2robot: Learning robot actions from paired human- robot videos,” in Proceedings of the AAAI Conference on Artificial Intelligence, vol. 40, no. 13, 2026, pp. 11 078–11 086.",
+      "external_reference": null,
+      "match_basis": "No identity match in the preserved external inventory",
+      "forms": [
+        "visual"
+      ],
+      "roles": [],
+      "self_built": false,
+      "adaptation": [],
+      "areas": [],
+      "manuscript_pages": [
+        4
+      ]
+    },
+    {
+      "manuscript_reference": 30,
+      "name": "Video-as-Prompt",
+      "title": "Learning generalizable robot policy with human demonstration video as a prompt",
+      "citation": "X. Zhu, Y. Liu, H. Li, and J. Chen, “Learning generalizable robot policy with human demonstration video as a prompt,” arXiv preprint arXiv:2505.20795, 2025.",
+      "external_reference": null,
+      "match_basis": "No identity match in the preserved external inventory",
+      "forms": [
+        "visual"
+      ],
+      "roles": [],
+      "self_built": false,
+      "adaptation": [],
+      "areas": [],
+      "manuscript_pages": [
+        4
+      ]
+    },
+    {
+      "manuscript_reference": 31,
+      "name": "HOST",
+      "title": "Robots acquire manipulation skills in seconds from a single human video",
+      "citation": "G. Chen, M. Wang, T. Cui, Z. Zhou, Q. Shao, S. Li, H. Su, R. Gan, H. Wang, M. Fu et al., “Robots acquire manipulation skills in seconds from a single human video,” arXiv preprint arXiv:2607.20033, 2026.",
+      "external_reference": 23,
+      "match_basis": "Same arXiv identifier or matching bibliographic title",
+      "forms": [
+        "visual"
+      ],
+      "roles": [
+        "task"
+      ],
+      "self_built": false,
+      "adaptation": [],
+      "areas": [],
+      "manuscript_pages": [
+        4
+      ]
+    },
+    {
+      "manuscript_reference": 32,
+      "name": "LingBot-VA 2.0",
+      "title": "Native video-action pretraining for generalizable robot control",
+      "citation": "Q. Zhang, L. Li, L. Zhang, S. Yang, Y. Luo, S. Li, R. Wang, J. Wang, J. Shao, G. Xu et al., “Native video-action pretraining for generalizable robot control,” arXiv preprint arXiv:2607.08639, 2026.",
+      "external_reference": null,
+      "match_basis": "No identity match in the preserved external inventory",
+      "forms": [
+        "visual"
+      ],
+      "roles": [],
+      "self_built": false,
+      "adaptation": [],
+      "areas": [],
+      "manuscript_pages": [
+        4
+      ]
+    },
+    {
+      "manuscript_reference": 33,
+      "name": "Skild S1",
+      "title": "Introducing s1: In-context learning for robotics",
+      "citation": "S. AI, “Introducing s1: In-context learning for robotics,” August 2026. [Online]. Available: https://skild.ai/blogs/s1",
+      "external_reference": 99,
+      "match_basis": "Same arXiv identifier or matching bibliographic title",
+      "forms": [
+        "visual"
+      ],
+      "roles": [],
+      "self_built": false,
+      "adaptation": [],
+      "areas": [],
+      "manuscript_pages": [
+        4
+      ]
+    },
+    {
+      "manuscript_reference": 34,
+      "name": "AdA",
+      "title": "Human-timescale adaptation in an open-ended task space",
+      "citation": "A. A. Team, J. Bauer, K. Baumli, S. Baveja, F. Behbahani, A. Bhoopc- hand, N. Bradley-Schmieg, M. Chang, N. Clay, A. Collister et al., “Human-timescale adaptation in an open-ended task space,” arXiv preprint arXiv:2301.07608, 2023.",
+      "external_reference": null,
+      "match_basis": "No identity match in the preserved external inventory",
+      "forms": [
+        "trajectory"
+      ],
+      "roles": [
+        "behavior"
+      ],
+      "self_built": false,
+      "adaptation": [],
+      "areas": [],
+      "manuscript_pages": [
+        4
+      ]
+    },
+    {
+      "manuscript_reference": 35,
+      "name": "XSkill",
+      "title": "Xskill: Cross embodiment skill discovery",
+      "citation": "M. Xu, Z. Xu, C. Chi, M. Veloso, and S. Song, “Xskill: Cross embodiment skill discovery,” in Conference on robot learning. PMLR, 2023, pp. 3536–3555.",
+      "external_reference": 29,
+      "match_basis": "Same arXiv identifier or matching bibliographic title",
+      "forms": [
+        "trajectory"
+      ],
+      "roles": [
+        "behavior"
+      ],
+      "self_built": false,
+      "adaptation": [],
+      "areas": [],
+      "manuscript_pages": [
+        4
+      ]
+    },
+    {
+      "manuscript_reference": 36,
+      "name": "Implicit Graph Alignment",
+      "title": "Few-shot in-context imitation learning via implicit graph alignment",
+      "citation": "V. Vosylius and E. Johns, “Few-shot in-context imitation learning via implicit graph alignment,” arXiv preprint arXiv:2310.12238, 2023.",
+      "external_reference": null,
+      "match_basis": "No identity match in the preserved external inventory",
+      "forms": [
+        "trajectory"
+      ],
+      "roles": [
+        "behavior"
+      ],
+      "self_built": false,
+      "adaptation": [],
+      "areas": [],
+      "manuscript_pages": [
+        4
+      ]
+    },
+    {
+      "manuscript_reference": 37,
+      "name": "DINOBot",
+      "title": "Dinobot: Robot manipulation via retrieval and alignment with vision foundation models",
+      "citation": "N. Di Palo and E. Johns, “Dinobot: Robot manipulation via retrieval and alignment with vision foundation models,” in 2024 IEEE International Conference on Robotics and Automation (ICRA), 2024, pp. 2798–2805.",
+      "external_reference": 34,
+      "match_basis": "Same arXiv identifier or matching bibliographic title",
+      "forms": [
+        "trajectory"
+      ],
+      "roles": [
+        "behavior"
+      ],
+      "self_built": false,
+      "adaptation": [],
+      "areas": [],
+      "manuscript_pages": [
+        4
+      ]
+    },
+    {
+      "manuscript_reference": 38,
+      "name": "CAPTURE",
+      "title": "Dynamics as prompts: In-context learning for sim-to-real system iden- tifications",
+      "citation": "X. Zhang, S. Liu, P. Huang, W. J. Han, Y. Lyu, M. Xu, and D. Zhao, “Dynamics as prompts: In-context learning for sim-to-real system iden- tifications,” IEEE Robotics and Automation Letters, vol. 10, no. 4, pp. 3190–3197, 2025.",
+      "external_reference": null,
+      "match_basis": "No identity match in the preserved external inventory",
+      "forms": [
+        "trajectory"
+      ],
+      "roles": [
+        "state"
+      ],
+      "self_built": false,
+      "adaptation": [
+        "gradient-free"
+      ],
+      "areas": [],
+      "manuscript_pages": [
+        4
+      ]
+    },
+    {
+      "manuscript_reference": 39,
+      "name": "REGENT",
+      "title": "Regent: A retrieval- augmented generalist agent that can act in-context in new environments",
+      "citation": "K. Sridhar, S. Dutta, D. Jayaraman, and I. Lee, “Regent: A retrieval- augmented generalist agent that can act in-context in new environments,” in International Conference on Learning Representations, vol. 2025, 2025, pp. 39 385–39 414.",
+      "external_reference": 154,
+      "match_basis": "Same arXiv identifier or matching bibliographic title",
+      "forms": [
+        "trajectory"
+      ],
+      "roles": [
+        "behavior"
+      ],
+      "self_built": false,
+      "adaptation": [],
+      "areas": [],
+      "manuscript_pages": [
+        4
+      ]
+    },
+    {
+      "manuscript_reference": 40,
+      "name": "UniSkill",
+      "title": "Uniskill: Imitating human videos via cross-embodiment skill representations",
+      "citation": "H. Kim, J. Kang, H. Kang, M. Cho, S. J. Kim, and Y. Lee, “Uniskill: Imitating human videos via cross-embodiment skill representations,” arXiv preprint arXiv:2505.08787, 2025.",
+      "external_reference": 30,
+      "match_basis": "Same arXiv identifier or matching bibliographic title",
+      "forms": [
+        "trajectory"
+      ],
+      "roles": [
+        "behavior"
+      ],
+      "self_built": false,
+      "adaptation": [],
+      "areas": [],
+      "manuscript_pages": [
+        4
+      ]
+    },
+    {
+      "manuscript_reference": 41,
+      "name": "RICL",
+      "title": "Ricl: Adding in- context adaptability to pre-trained vision-language-action models",
+      "citation": "K. Sridhar, S. Dutta, D. Jayaraman, and I. Lee, “Ricl: Adding in- context adaptability to pre-trained vision-language-action models,” arXiv preprint arXiv:2508.02062, 2025.",
+      "external_reference": 17,
+      "match_basis": "Same arXiv identifier or matching bibliographic title",
+      "forms": [
+        "trajectory"
+      ],
+      "roles": [
+        "behavior"
+      ],
+      "self_built": false,
+      "adaptation": [
+        "gradient-free",
+        "update-optional"
+      ],
+      "areas": [],
+      "manuscript_pages": [
+        4
+      ]
+    },
+    {
+      "manuscript_reference": 42,
+      "name": "ICPI",
+      "title": "In-context iterative policy improvement for dynamic manipulation",
+      "citation": "M. Van der Merwe and D. Jha, “In-context iterative policy improvement for dynamic manipulation,” arXiv preprint arXiv:2508.15021, 2025.",
+      "external_reference": 9,
+      "match_basis": "Same arXiv identifier or matching bibliographic title",
+      "forms": [
+        "trajectory"
+      ],
+      "roles": [
+        "behavior"
+      ],
+      "self_built": false,
+      "adaptation": [],
+      "areas": [],
+      "manuscript_pages": [
+        4
+      ]
+    },
+    {
+      "manuscript_reference": 43,
+      "name": "MimicDroid",
+      "title": "Mimicdroid: In-context learning for humanoid robot ma- nipulation from human play videos",
+      "citation": "R. Shah, S. Liu, Q. Wang, Z. Jiang, S. Kumar, M. Seo, R. Martín-Martín, and Y. Zhu, “Mimicdroid: In-context learning for humanoid robot ma- nipulation from human play videos,” arXiv preprint arXiv:2509.09769, 2025.",
+      "external_reference": 245,
+      "match_basis": "Same arXiv identifier or matching bibliographic title",
+      "forms": [
+        "trajectory"
+      ],
+      "roles": [
+        "behavior"
+      ],
+      "self_built": false,
+      "adaptation": [],
+      "areas": [],
+      "manuscript_pages": [
+        4
+      ]
+    },
+    {
+      "manuscript_reference": 44,
+      "name": "RoboSSM",
+      "title": "Robossm: Scalable in-context imitation learning via state-space mod- els",
+      "citation": "Y. Yoo, J. Hu, Y. Zhu, B. Liu, Q. Liu, R. Martín-Martín, and P. Stone, “Robossm: Scalable in-context imitation learning via state-space mod- els,” arXiv preprint arXiv:2509.19658, 2025.",
+      "external_reference": null,
+      "match_basis": "No identity match in the preserved external inventory",
+      "forms": [
+        "trajectory"
+      ],
+      "roles": [],
+      "self_built": false,
+      "adaptation": [],
+      "areas": [
+        "graded-novelty"
+      ],
+      "manuscript_pages": [
+        4
+      ]
+    },
+    {
+      "manuscript_reference": 45,
+      "name": "MoS-VLA",
+      "title": "Mos-vla: A vision- language-action model with one-shot skill adaptation",
+      "citation": "R. Zhao, T. Ingebrand, S. Chinchali, and U. Topcu, “Mos-vla: A vision- language-action model with one-shot skill adaptation,” arXiv preprint arXiv:2510.16617, 2025.",
+      "external_reference": null,
+      "match_basis": "No identity match in the preserved external inventory",
+      "forms": [
+        "trajectory"
+      ],
+      "roles": [
+        "behavior"
+      ],
+      "self_built": false,
+      "adaptation": [],
+      "areas": [],
+      "manuscript_pages": [
+        4
+      ]
+    },
+    {
+      "manuscript_reference": 46,
+      "name": "SeeTraceAct",
+      "title": "Seetraceact: Visibility-aware latent planning from cross-embodiment demonstration videos",
+      "citation": "J. Son, J. Kim, K. Kam, J. Coholich, S. J. Kim, J. Kim, C. D. Kim, J. Cho, D. Fox, and Z. Kira, “Seetraceact: Visibility-aware latent planning from cross-embodiment demonstration videos,” arXiv preprint, 2026.",
+      "external_reference": 182,
+      "match_basis": "Same arXiv identifier or matching bibliographic title",
+      "forms": [
+        "trajectory"
+      ],
+      "roles": [],
+      "self_built": false,
+      "adaptation": [],
+      "areas": [],
+      "manuscript_pages": [
+        4
+      ]
+    },
+    {
+      "manuscript_reference": 47,
+      "name": "ViVLA",
+      "title": "See once, then act: Vision-language-action model with task learning from one-shot video demonstrations",
+      "citation": "G. Chen, M. Wang, Q. Shao, Z. Zhou, W. Mao, T. Cui, M. Zhu, Y. Deng, L. Yang, Z. Zhang et al., “See once, then act: Vision-language-action model with task learning from one-shot video demonstrations,” arXiv preprint arXiv:2512.07582, 2025.",
+      "external_reference": 159,
+      "match_basis": "Same arXiv identifier or matching bibliographic title",
+      "forms": [
+        "trajectory"
+      ],
+      "roles": [],
+      "self_built": false,
+      "adaptation": [],
+      "areas": [],
+      "manuscript_pages": [
+        4
+      ]
+    },
+    {
+      "manuscript_reference": 48,
+      "name": "ICLR",
+      "title": "Iclr: In-context imitation learning with visual reasoning",
+      "citation": "T. Nguyen, W. Yuan, S. Wei, H. Li, D. Seita, and Y. Wang, “Iclr: In-context imitation learning with visual reasoning,” arXiv preprint arXiv:2603.07530, 2026.",
+      "external_reference": 181,
+      "match_basis": "Same arXiv identifier or matching bibliographic title",
+      "forms": [
+        "trajectory"
+      ],
+      "roles": [],
+      "self_built": false,
+      "adaptation": [],
+      "areas": [],
+      "manuscript_pages": [
+        4
+      ]
+    },
+    {
+      "manuscript_reference": 49,
+      "name": "BPP",
+      "title": "Behavior prompting policy: Demonstrations as prompts for manipulation",
+      "citation": "A. Patel, B. Pekarek, J. E. C. Hernandez, and S. Song, “Behavior prompting policy: Demonstrations as prompts for manipulation,” arXiv preprint arXiv:2606.30457, 2026.",
+      "external_reference": 54,
+      "match_basis": "Same arXiv identifier or matching bibliographic title",
+      "forms": [
+        "trajectory"
+      ],
+      "roles": [],
+      "self_built": false,
+      "adaptation": [
+        "update-optional"
+      ],
+      "areas": [
+        "graded-novelty"
+      ],
+      "manuscript_pages": [
+        4
+      ]
+    },
+    {
+      "manuscript_reference": 50,
+      "name": "Instant-Fold",
+      "title": "Instant-fold: In-context imita- tion learning for deformable object manipulation",
+      "citation": "Y. Wang, C. Qian, and E. Johns, “Instant-fold: In-context imita- tion learning for deformable object manipulation,” arXiv preprint arXiv:2606.04269, 2026.",
+      "external_reference": 91,
+      "match_basis": "Same arXiv identifier or matching bibliographic title",
+      "forms": [
+        "trajectory"
+      ],
+      "roles": [
+        "behavior"
+      ],
+      "self_built": false,
+      "adaptation": [],
+      "areas": [],
+      "manuscript_pages": [
+        4
+      ]
+    },
+    {
+      "manuscript_reference": 51,
+      "name": "SynthICL",
+      "title": "Synthicl: Scal- able in-context imitation learning with synthetic data",
+      "citation": "C. Qian, R. Fan, Y. Ren, Y. Wang, and E. Johns, “Synthicl: Scal- able in-context imitation learning with synthetic data,” arXiv preprint arXiv:2606.08154, 2026.",
+      "external_reference": 77,
+      "match_basis": "Same arXiv identifier or matching bibliographic title",
+      "forms": [
+        "trajectory"
+      ],
+      "roles": [],
+      "self_built": false,
+      "adaptation": [],
+      "areas": [],
+      "manuscript_pages": [
+        4
+      ]
+    },
+    {
+      "manuscript_reference": 52,
+      "name": "ICWM",
+      "title": "In-context world modeling for robotic control",
+      "citation": "S. Wang, J. Shi, S. Fei, Z. Fu, L. Ji, J. Gong, and X. Qiu, “In-context world modeling for robotic control,” arXiv preprint arXiv:2606.26025, 2026.",
+      "external_reference": 41,
+      "match_basis": "Same arXiv identifier or matching bibliographic title",
+      "forms": [
+        "trajectory"
+      ],
+      "roles": [
+        "state"
+      ],
+      "self_built": false,
+      "adaptation": [
+        "gradient-free"
+      ],
+      "areas": [
+        "mechanistic-diagnostics"
+      ],
+      "manuscript_pages": [
+        4
+      ]
+    },
+    {
+      "manuscript_reference": 53,
+      "name": "GEN-1.5",
+      "title": "Gen-1.5: Embodied foundation models are one-shot learners",
+      "citation": "G. Team, “Gen-1.5: Embodied foundation models are one-shot learners,” Generalist AI Blog, 2026, https://generalistai.com/blog/gen-1.5.",
+      "external_reference": 98,
+      "match_basis": "Same arXiv identifier or matching bibliographic title",
+      "forms": [
+        "trajectory"
+      ],
+      "roles": [],
+      "self_built": false,
+      "adaptation": [],
+      "areas": [],
+      "manuscript_pages": [
+        4
+      ]
+    },
+    {
+      "manuscript_reference": 54,
+      "name": "VIMA",
+      "title": "Vima: Robot manipulation with multimodal prompts",
+      "citation": "Y. Jiang, A. Gupta, Z. Zhang, G. Wang, Y. Dou, Y. Chen, L. Fei-Fei, A. Anandkumar, Y. Zhu, and L. Fan, “Vima: Robot manipulation with multimodal prompts,” 2023.",
+      "external_reference": 100,
+      "match_basis": "Same arXiv identifier or matching bibliographic title",
+      "forms": [
+        "multimodal"
+      ],
+      "roles": [],
+      "self_built": false,
+      "adaptation": [],
+      "areas": [
+        "graded-novelty"
+      ],
+      "manuscript_pages": [
+        4
+      ]
+    },
+    {
+      "manuscript_reference": 55,
+      "name": "WorldScape Policy 2.0",
+      "title": "Worldscape policy 2.0: Empowering steerable world action modeling with reasoning-augmented memory",
+      "citation": "H. Su, Z. Liu, X. Jin, H. Dou, C. Hu, B. Li, Z. Liu, R. Xu, J. Fang, X. Zhang et al., “Worldscape policy 2.0: Empowering steerable world action modeling with reasoning-augmented memory,” arXiv preprint arXiv:2607.18840, 2026.",
+      "external_reference": 25,
+      "match_basis": "Same arXiv identifier or matching bibliographic title",
+      "forms": [
+        "multimodal"
+      ],
+      "roles": [],
+      "self_built": false,
+      "adaptation": [],
+      "areas": [],
+      "manuscript_pages": [
+        4
+      ]
+    },
+    {
+      "manuscript_reference": 56,
+      "name": "Imitator Game",
+      "title": "The imitator game: Benchmarking robot imita- tive ability beyond action prediction",
+      "citation": "X. Zhou, Y. Cai, F. Wang, R. Ju, H. Ren, R. Liu, Y. Zhang, Q. Luo, F. Chen, P. Zhou et al., “The imitator game: Benchmarking robot imita- tive ability beyond action prediction,” arXiv preprint arXiv:2608.22301, 2026.",
+      "external_reference": 101,
+      "match_basis": "Same arXiv identifier or matching bibliographic title",
+      "forms": [],
+      "roles": [
+        "task"
+      ],
+      "self_built": false,
+      "adaptation": [],
+      "areas": [
+        "graded-novelty",
+        "cross-task-evaluation"
+      ],
+      "manuscript_pages": [
+        4
+      ]
+    },
+    {
+      "manuscript_reference": 57,
+      "name": "RMA",
+      "title": "Rma: Rapid motor adaptation for legged robots",
+      "citation": "A. Kumar, Z. Fu, D. Pathak, and J. Malik, “Rma: Rapid motor adaptation for legged robots,” in Robotics: Science and Systems (RSS), 2021.",
+      "external_reference": 39,
+      "match_basis": "Same arXiv identifier or matching bibliographic title",
+      "forms": [],
+      "roles": [],
+      "self_built": false,
+      "adaptation": [],
+      "areas": [
+        "dynamics-identification"
+      ],
+      "manuscript_pages": [
+        4
+      ]
+    },
+    {
+      "manuscript_reference": 58,
+      "name": "AnyAdapter",
+      "title": "Track any motions under any disturbances",
+      "citation": "Z. Zhang, J. Guo, C. Chen, J. Wang, C. Lin, Y. Lian, H. Xue, Z. Wang, M. Liu, J. Lyu, H. Liu, H. Wang, and L. Yi, “Track any motions under any disturbances,” arXiv preprint arXiv:2509.13833, 2025. IEEE TRANSACTIONS ON ROBOTICS, VOL. XX, NO. X, MONTH 2026 15",
+      "external_reference": null,
+      "match_basis": "No identity match in the preserved external inventory",
+      "forms": [],
+      "roles": [],
+      "self_built": false,
+      "adaptation": [],
+      "areas": [
+        "dynamics-identification"
+      ],
+      "manuscript_pages": [
+        4
+      ]
+    },
+    {
+      "manuscript_reference": 59,
+      "name": "HoRD",
+      "title": "Hord: Robust humanoid control via history-conditioned reinforcement learning and online distillation",
+      "citation": "P. Wang, J. Hu, Y. Gao, J. Wang, Y. Zhang, G. Dobbie, T. Gu, W. Johal, T. Dang, and H. Jia, “Hord: Robust humanoid control via history-conditioned reinforcement learning and online distillation,” arXiv preprint arXiv:2602.04412, 2026.",
+      "external_reference": null,
+      "match_basis": "No identity match in the preserved external inventory",
+      "forms": [],
+      "roles": [],
+      "self_built": false,
+      "adaptation": [],
+      "areas": [
+        "dynamics-identification"
+      ],
+      "manuscript_pages": [
+        4
+      ]
+    },
+    {
+      "manuscript_reference": 60,
+      "name": "SplitAdapter",
+      "title": "Splitadapter: Load-aware humanoid loco-manipulation via factorized adaptation",
+      "citation": "J. Kang, H. Cho, S. Kang, and D. Koo, “Splitadapter: Load-aware humanoid loco-manipulation via factorized adaptation,” arXiv preprint arXiv:2606.03297, 2026.",
+      "external_reference": null,
+      "match_basis": "No identity match in the preserved external inventory",
+      "forms": [],
+      "roles": [],
+      "self_built": false,
+      "adaptation": [],
+      "areas": [
+        "dynamics-identification"
+      ],
+      "manuscript_pages": [
+        4
+      ]
+    },
+    {
+      "manuscript_reference": 61,
+      "name": "Quadcopter",
+      "title": "A learning-based quadcopter controller with extreme adapta- tion",
+      "citation": "D. Zhang, A. Loquercio, J. Tang, T.-H. Wang, J. Malik, and M. W. Mueller, “A learning-based quadcopter controller with extreme adapta- tion,” IEEE Transactions on Robotics, vol. 41, pp. 3948–3964, 2025.",
+      "external_reference": null,
+      "match_basis": "No identity match in the preserved external inventory",
+      "forms": [],
+      "roles": [],
+      "self_built": false,
+      "adaptation": [],
+      "areas": [
+        "dynamics-identification"
+      ],
+      "manuscript_pages": [
+        4
+      ]
+    },
+    {
+      "manuscript_reference": 62,
+      "name": "RAPTOR",
+      "title": "Raptor: A foundation policy for quadrotor control",
+      "citation": "J. Eschmann, D. Albani, and G. Loianno, “Raptor: A foundation policy for quadrotor control,” Science Robotics, 2026, arXiv:2509.11481.",
+      "external_reference": null,
+      "match_basis": "No identity match in the preserved external inventory",
+      "forms": [],
+      "roles": [],
+      "self_built": false,
+      "adaptation": [],
+      "areas": [
+        "dynamics-identification"
+      ],
+      "manuscript_pages": [
+        4
+      ]
+    },
+    {
+      "manuscript_reference": 63,
+      "name": "X-Loco",
+      "title": "X- loco: Towards generalist humanoid locomotion control via synergetic policy distillation",
+      "citation": "D. Wang, X. Wang, C. Zhang, J. Shi, Y. Zhao, C. Bai, and X. Li, “X- loco: Towards generalist humanoid locomotion control via synergetic policy distillation,” in Robotics: Science and Systems (RSS), 2026.",
+      "external_reference": null,
+      "match_basis": "No identity match in the preserved external inventory",
+      "forms": [],
+      "roles": [],
+      "self_built": false,
+      "adaptation": [],
+      "areas": [
+        "dynamics-identification"
+      ],
+      "manuscript_pages": [
+        4
+      ]
+    },
+    {
+      "manuscript_reference": 64,
+      "name": "LocoFormer",
+      "title": "Locoformer: Generalist locomotion via long-context adaptation",
+      "citation": "M. Liu, D. Pathak, and A. Agarwal, “Locoformer: Generalist locomotion via long-context adaptation,” in Conference on Robot Learning (CoRL), 2025.",
+      "external_reference": 40,
+      "match_basis": "Same arXiv identifier or matching bibliographic title",
+      "forms": [],
+      "roles": [],
+      "self_built": false,
+      "adaptation": [],
+      "areas": [
+        "in-context-rl"
+      ],
+      "manuscript_pages": [
+        4
+      ]
+    },
+    {
+      "manuscript_reference": 65,
+      "name": "AMAGO",
+      "title": "Amago: Scalable in-context rein- forcement learning for adaptive agents",
+      "citation": "J. Grigsby, L. Fan, and Y. Zhu, “Amago: Scalable in-context rein- forcement learning for adaptive agents,” in International Conference on Learning Representations (ICLR), 2024.",
+      "external_reference": 202,
+      "match_basis": "Same arXiv identifier or matching bibliographic title",
+      "forms": [],
+      "roles": [],
+      "self_built": false,
+      "adaptation": [],
+      "areas": [
+        "in-context-rl"
+      ],
+      "manuscript_pages": [
+        4
+      ]
+    },
+    {
+      "manuscript_reference": 66,
+      "name": "ReLIC",
+      "title": "Relic: A recipe for 64k steps of in-context reinforcement learning for embodied ai",
+      "citation": "A. Elawady, G. Chhablani, R. Ramrakhya, K. Yadav, D. Batra, Z. Kira, and A. Szot, “Relic: A recipe for 64k steps of in-context reinforcement learning for embodied ai,” arXiv preprint arXiv:2410.02751, 2024.",
+      "external_reference": 203,
+      "match_basis": "Same arXiv identifier or matching bibliographic title",
+      "forms": [],
+      "roles": [],
+      "self_built": false,
+      "adaptation": [],
+      "areas": [
+        "in-context-rl"
+      ],
+      "manuscript_pages": [
+        4
+      ]
+    },
+    {
+      "manuscript_reference": 67,
+      "name": "Prompt-Driven DA",
+      "title": "Prompt-driven domain adaptation for end-to-end autonomous driving via in-context rl",
+      "citation": "A. Khurram, A. Moeini, S. Zhang, and R. Chandra, “Prompt-driven domain adaptation for end-to-end autonomous driving via in-context rl,” arXiv preprint arXiv:2511.12755, 2025.",
+      "external_reference": null,
+      "match_basis": "No identity match in the preserved external inventory",
+      "forms": [],
+      "roles": [],
+      "self_built": false,
+      "adaptation": [],
+      "areas": [
+        "in-context-rl"
+      ],
+      "manuscript_pages": [
+        4
+      ]
+    },
+    {
+      "manuscript_reference": 68,
+      "name": "FB-CPR",
+      "title": "Zero-shot whole-body humanoid control via behavioral foundation models",
+      "citation": "A. Tirinzoni, A. Touati, J. Farebrother, M. Guzek, A. Kanervisto, Y. Xu, A. Lazaric, and M. Pirotta, “Zero-shot whole-body humanoid control via behavioral foundation models,” in International Conference on Learning Representations (ICLR), 2025.",
+      "external_reference": null,
+      "match_basis": "No identity match in the preserved external inventory",
+      "forms": [],
+      "roles": [],
+      "self_built": false,
+      "adaptation": [],
+      "areas": [
+        "beyond-arm-task-behavior"
+      ],
+      "manuscript_pages": [
+        4
+      ]
+    },
+    {
+      "manuscript_reference": 69,
+      "name": "BFM-Zero",
+      "title": "Bfm-zero: A promptable behavioral foundation model for humanoid control using unsupervised reinforcement learning",
+      "citation": "Y. Li, Z. Luo, T. Zhang, C. Dai, A. Tirinzoni, A. Kanervisto, H. Weng, K. Kitani, M. Guzek, A. Touati, A. Lazaric, M. Pirotta, and G. Shi, “Bfm-zero: A promptable behavioral foundation model for humanoid control using unsupervised reinforcement learning,” arXiv preprint arXiv:2511.04131, 2025.",
+      "external_reference": null,
+      "match_basis": "No identity match in the preserved external inventory",
+      "forms": [],
+      "roles": [],
+      "self_built": false,
+      "adaptation": [],
+      "areas": [
+        "beyond-arm-task-behavior"
+      ],
+      "manuscript_pages": [
+        4
+      ]
+    },
+    {
+      "manuscript_reference": 70,
+      "name": "ICIL-UAV",
+      "title": "In-context imitation learning for uav navigation via graph diffusion model",
+      "citation": "M. A. Azar, “In-context imitation learning for uav navigation via graph diffusion model,” in 55 Jornadas Argentinas de Informática (JAIIO), 2026, https://55jaiio.sadio.org.ar/wp-content/uploads/2026/08/253.pdf.",
+      "external_reference": null,
+      "match_basis": "No identity match in the preserved external inventory",
+      "forms": [],
+      "roles": [],
+      "self_built": false,
+      "adaptation": [],
+      "areas": [
+        "beyond-arm-task-behavior"
+      ],
+      "manuscript_pages": [
+        4
+      ]
+    },
+    {
+      "manuscript_reference": 71,
+      "name": "RoboTwin 2.0",
+      "title": "Robotwin 2.0: A scalable data generator and benchmark with strong domain randomization for robust bimanual robotic manipulation",
+      "citation": "T. Chen, Z. Chen, B. Chen, Z. Cai, Y. Liu, Z. Li, Q. Liang, X. Lin, Y. Ge, Z. Gu et al., “Robotwin 2.0: A scalable data generator and benchmark with strong domain randomization for robust bimanual robotic manipulation,” arXiv preprint arXiv:2506.18088, 2025.",
+      "external_reference": 230,
+      "match_basis": "Same arXiv identifier or matching bibliographic title",
+      "forms": [],
+      "roles": [],
+      "self_built": false,
+      "adaptation": [],
+      "areas": [
+        "cross-task-evaluation"
+      ],
+      "manuscript_pages": [
+        4
+      ]
+    },
+    {
+      "manuscript_reference": 72,
+      "name": "V-ICAL",
+      "title": "V-ical bench: Evaluating video in-context learning for multimodal agents in interactive environments",
+      "citation": "Z. Fan, S. Xu, J. Li, X. Zhao, S. Ding, Y. Yang, Z. Yang, H. Duan, Y. Zhou, Z. Zhong et al., “V-ical bench: Evaluating video in-context learning for multimodal agents in interactive environments,” arXiv preprint arXiv:2609.15683, 2026.",
+      "external_reference": null,
+      "match_basis": "No identity match in the preserved external inventory",
+      "forms": [],
+      "roles": [],
+      "self_built": false,
+      "adaptation": [],
+      "areas": [
+        "mechanistic-diagnostics"
+      ],
+      "manuscript_pages": [
+        4
+      ]
+    }
+  ]
+}
