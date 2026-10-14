@@ -12,7 +12,7 @@
 <a href="https://github.com/sindresorhus/awesome"><img alt="Awesome list" src="https://img.shields.io/badge/awesome-list-162f4b?style=flat-square&logo=awesomelists&logoColor=white"></a>
 <a href="#paper-list"><img alt="412 works in the collection" src="https://img.shields.io/badge/works-412-183c68?style=flat-square"></a>
 <a href="#survey-map"><img alt="67 roadmap examples" src="https://img.shields.io/badge/roadmap%20examples-67-234fa0?style=flat-square"></a>
-<a href="#daily-research-agent"><img alt="Daily research agent: 9 candidates awaiting review" src="https://img.shields.io/badge/daily%20agent-9%20awaiting%20review-0f8b7f?style=flat-square"></a>
+<a href="#daily-research-agent"><img alt="Daily research agent: 12 candidates awaiting review" src="https://img.shields.io/badge/daily%20agent-12%20awaiting%20review-0f8b7f?style=flat-square"></a>
 <a href="https://github.com/wangevan6/Awesome-Embodied-ICL/issues/new?template=paper.yml"><img alt="Suggest a paper" src="https://img.shields.io/badge/suggest-a%20paper-7048c8?style=flat-square"></a>
 <!-- BADGES:END -->
 </p>
@@ -51,7 +51,7 @@ Can a robot take on a new task from context alone (a demonstration, an instructi
 ## At a glance
 
 <!-- STATS:START -->
-| **412** | **67** | **38** | **29** | **21** | **9** |
+| **412** | **67** | **38** | **29** | **21** | **12** |
 | --- | --- | --- | --- | --- | --- |
 | works in the collection | examples in our manuscript’s roadmap | roadmap examples in the collection | roadmap examples outside it | works with reading notes | daily candidates awaiting review |
 <!-- STATS:END -->
@@ -665,9 +665,9 @@ flowchart LR
 <!-- github-only:end -->
 
 <!-- DAILY:START -->
-**Latest run:** Oct 9, 2026 · [report](docs/daily-collection/2026-10-09.md) · [summary](docs/daily-collection/2026-10-09.json)
+**Latest run:** Oct 14, 2026 · [report](docs/daily-collection/2026-10-14.md) · [summary](docs/daily-collection/2026-10-14.json)
 
-**Awaiting human review:** 9 candidates (4 visual, 4 trajectory). Candidates stay out of the collection until a reviewer accepts them.
+**Awaiting human review:** 12 candidates (4 visual, 4 trajectory, 3 multimodal). Candidates stay out of the collection until a reviewer accepts them.
 <!-- DAILY:END -->
 
 Each run writes a report and a machine-readable summary to `docs/daily-collection/`. A form or role in a report is a suggestion for reviewers, not a mapping. The full procedure is in `agents/daily-research/INSTRUCTIONS.md`.

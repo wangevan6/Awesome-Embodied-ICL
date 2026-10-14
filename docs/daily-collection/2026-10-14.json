@@ -1,0 +1,11 @@
+{
+  "run_date": "2026-10-14",
+  "timezone": "America/New_York",
+  "report": "docs/daily-collection/2026-10-14.md",
+  "note": "Machine-readable summary of the report. Forms and roles are review suggestions from abstracts, not manuscript mappings. Nothing here is part of the collection until a reviewer accepts it.",
+  "candidates": [
+    {"name": "CTP", "title": "Contact Trajectory Prompting: In-Context Transfer of Contact-Rich Behaviors from a Single Demonstration", "url": "https://arxiv.org/abs/2610.18848v1", "arxiv_id": "2610.18848", "submitted": "2026-10-13", "priority": "core", "form": "multimodal", "roles": ["behavior"], "self_built": false, "decision": "pending"},
+    {"name": "WATCH", "title": "Learning Transferable World-Action Models from Task-Paired Human Videos", "url": "https://arxiv.org/abs/2610.14351v1", "arxiv_id": "2610.14351", "submitted": "2026-10-09", "priority": "core", "form": "multimodal", "roles": ["behavior"], "self_built": false, "decision": "pending"},
+    {"name": "Astra on RoboMME", "title": "Can a Frontier VLM Serve as a Robot Policy for Memory-Dependent Manipulation?", "url": "https://arxiv.org/abs/2610.17350v1", "arxiv_id": "2610.17350", "submitted": "2026-10-12", "priority": "boundary", "form": "multimodal", "roles": ["state"], "self_built": true, "decision": "pending"}
+  ]
+}
