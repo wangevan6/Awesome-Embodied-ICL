@@ -1,0 +1,11 @@
+{
+  "run_date": "2026-10-21",
+  "timezone": "America/New_York",
+  "report": "docs/daily-collection/2026-10-21.md",
+  "note": "Machine-readable summary of the report. Forms and roles are review suggestions from abstracts, not manuscript mappings. Nothing here is part of the collection until a reviewer accepts it.",
+  "candidates": [
+    {"name": "Tactile-ETA", "title": "Embodied Task Agents Can Perform Fine Manipulation through Tactile In-Context Learning", "url": "https://arxiv.org/abs/2610.27613v1", "arxiv_id": "2610.27613", "submitted": "2026-10-20", "priority": "core", "form": "multimodal", "roles": ["behavior"], "self_built": false, "decision": "pending"},
+    {"name": "GPT-as-Tactile-Policy", "title": "GPT-6-Astra Understands Touch and Outperform Vision--Tactile--Language--Action Models", "url": "https://arxiv.org/abs/2610.28457v1", "arxiv_id": "2610.28457", "submitted": "2026-10-20", "priority": "core", "form": "multimodal", "roles": ["behavior", "task"], "self_built": false, "decision": "pending"},
+    {"name": "GPT-6 direct robot control", "title": "Large Multimodal Models for Direct Robot Control: GPT-6 as a Beginning", "url": "https://arxiv.org/abs/2610.28259v1", "arxiv_id": "2610.28259", "submitted": "2026-10-20", "priority": "boundary", "form": "multimodal", "roles": ["behavior"], "self_built": false, "decision": "pending"}
+  ]
+}
