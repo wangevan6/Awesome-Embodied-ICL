@@ -1,0 +1,10 @@
+{
+  "run_date": "2026-10-22",
+  "timezone": "America/New_York",
+  "report": "docs/daily-collection/2026-10-22.md",
+  "note": "Machine-readable summary of the report. Forms and roles are review suggestions from abstracts, not manuscript mappings. Nothing here is part of the collection until a reviewer accepts it.",
+  "candidates": [
+    {"name": "ASTEROID", "title": "Asymmetric On-Policy Distillation Learns In-Context Exploration", "url": "https://arxiv.org/abs/2610.30105v1", "arxiv_id": "2610.30105", "submitted": "2026-10-21", "priority": "core", "form": "trajectory", "roles": ["state", "behavior"], "self_built": true, "decision": "pending"},
+    {"name": "SERA", "title": "From VLM Planners to Robotic Agents: Self-Evolving Harnesses for History-Dependent Manipulation", "url": "https://arxiv.org/abs/2610.29560v1", "arxiv_id": "2610.29560", "submitted": "2026-10-21", "priority": "boundary", "form": "text", "roles": ["task", "state"], "self_built": true, "decision": "pending"}
+  ]
+}
