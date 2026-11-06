@@ -1,0 +1,10 @@
+{
+  "run_date": "2026-10-20",
+  "timezone": "America/New_York",
+  "report": "docs/daily-collection/2026-10-20.md",
+  "note": "Machine-readable summary of the report. Forms and roles are review suggestions from abstracts, not manuscript mappings. Nothing here is part of the collection until a reviewer accepts it.",
+  "candidates": [
+    {"name": "Astra visuo-tactile", "title": "GPT-6 Astra Is a Native Visuo-Tactile Policy for Contact-Rich Manipulation", "url": "https://arxiv.org/abs/2610.26846v1", "arxiv_id": "2610.26846", "submitted": "2026-10-19", "priority": "core", "form": "multimodal", "roles": ["behavior"], "self_built": false, "decision": "pending"},
+    {"name": "RSM", "title": "Remember Less, Adapt Longer: Bounded-State In-Context Reinforcement Learning with Recurrent Summary Memory", "url": "https://arxiv.org/abs/2610.25758v1", "arxiv_id": "2610.25758", "submitted": "2026-10-19", "priority": "boundary", "form": "trajectory", "roles": ["behavior"], "self_built": true, "decision": "pending"}
+  ]
+}

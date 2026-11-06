@@ -1,0 +1,9 @@
+{
+  "run_date": "2026-10-16",
+  "timezone": "America/New_York",
+  "report": "docs/daily-collection/2026-10-16.md",
+  "note": "Machine-readable summary of the report. Forms and roles are review suggestions from abstracts, not manuscript mappings. Nothing here is part of the collection until a reviewer accepts it.",
+  "candidates": [
+    {"name": "CarryOn", "title": "CarryOn: A Dual-Loop Harness for Personalized and Reliable Robot Assistance", "url": "https://arxiv.org/abs/2610.21453v1", "arxiv_id": "2610.21453", "submitted": "2026-10-15", "priority": "boundary", "form": "text", "roles": ["task"], "self_built": true, "decision": "pending"}
+  ]
+}
