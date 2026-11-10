@@ -1,0 +1,11 @@
+{
+  "run_date": "2026-11-10",
+  "timezone": "America/New_York",
+  "report": "docs/daily-collection/2026-11-10.md",
+  "note": "Machine-readable summary of the report. Forms and roles are review suggestions from abstracts, not manuscript mappings. Nothing here is part of the collection until a reviewer accepts it.",
+  "candidates": [
+    {"name": "WICL / RoboScript", "title": "World In-Context Learning for Agentic Robot Manipulation", "url": "https://arxiv.org/abs/2611.12885v1", "arxiv_id": "2611.12885", "submitted": "2026-11-09", "priority": "core", "form": "multimodal", "roles": ["task", "behavior"], "self_built": true, "decision": "pending"},
+    {"name": "RAGu", "title": "Zero-Shot VLA Adaptation with Retrieved Guidance", "url": "https://arxiv.org/abs/2611.10894v1", "arxiv_id": "2611.10894", "submitted": "2026-11-07", "priority": "boundary", "form": "trajectory", "roles": ["behavior"], "self_built": false, "decision": "pending"},
+    {"name": "TabFM world model", "title": "An Evaluation of Tabular Foundation Models as Training-Free World Models", "url": "https://arxiv.org/abs/2611.11921v1", "arxiv_id": "2611.11921", "submitted": "2026-11-09", "priority": "boundary", "form": "trajectory", "roles": ["state"], "self_built": false, "decision": "pending"}
+  ]
+}
