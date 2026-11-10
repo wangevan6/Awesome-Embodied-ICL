@@ -1,0 +1,11 @@
+{
+  "run_date": "2026-10-15",
+  "timezone": "America/New_York",
+  "report": "docs/daily-collection/2026-10-15.md",
+  "note": "Machine-readable summary of the report. Forms and roles are review suggestions from abstracts, not manuscript mappings. Nothing here is part of the collection until a reviewer accepts it.",
+  "candidates": [
+    {"name": "VLRLA", "title": "VLRLA: Deployment-Time Adaptation of Vision-Language-Action Models through In-Context Reinforcement Learning", "url": "https://arxiv.org/abs/2610.19517v1", "arxiv_id": "2610.19517", "submitted": "2026-10-14", "priority": "core", "form": "trajectory", "roles": ["behavior"], "self_built": true, "decision": "pending"},
+    {"name": "Robota-Embed", "title": "Robota-Embed: Unified VLA Embeddings for Robot In-Context Learning and Evolution", "url": "https://arxiv.org/abs/2610.19495v1", "arxiv_id": "2610.19495", "submitted": "2026-10-14", "priority": "core", "form": "trajectory", "roles": ["behavior"], "self_built": true, "decision": "pending"},
+    {"name": "CapPro", "title": "One-shot Human Video-Guided Adaptation for Vision-Language-Action Models", "url": "https://arxiv.org/abs/2610.19746v1", "arxiv_id": "2610.19746", "submitted": "2026-10-14", "priority": "core", "form": "visual", "roles": ["task"], "self_built": false, "decision": "pending"}
+  ]
+}
