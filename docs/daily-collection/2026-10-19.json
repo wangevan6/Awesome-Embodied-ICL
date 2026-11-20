@@ -1,0 +1,10 @@
+{
+  "run_date": "2026-10-19",
+  "timezone": "America/New_York",
+  "report": "docs/daily-collection/2026-10-19.md",
+  "note": "Machine-readable summary of the report. Forms and roles are review suggestions from abstracts, not manuscript mappings. Nothing here is part of the collection until a reviewer accepts it.",
+  "candidates": [
+    {"name": "GPT-6-Astra embodied report", "title": "Has GPT-6-Astra Achieved Embodied Intelligence?", "url": "https://arxiv.org/abs/2610.22471v1", "arxiv_id": "2610.22471", "submitted": "2026-10-15", "priority": "core", "form": "trajectory", "roles": ["behavior"], "self_built": false, "decision": "pending"},
+    {"name": "InstAgent", "title": "InstAgent: A Recursively Self-Improving Agent Operating System for Heterogeneous Robot Collaboration", "url": "https://arxiv.org/abs/2610.23098v1", "arxiv_id": "2610.23098", "submitted": "2026-10-16", "priority": "boundary", "form": "multimodal", "roles": ["behavior", "state"], "self_built": true, "decision": "pending"}
+  ]
+}
