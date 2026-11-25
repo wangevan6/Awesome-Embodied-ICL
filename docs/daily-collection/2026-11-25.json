@@ -1,0 +1,13 @@
+{
+  "run_date": "2026-11-25",
+  "timezone": "America/New_York",
+  "report": "docs/daily-collection/2026-11-25.md",
+  "note": "Machine-readable summary of the report. Forms and roles are review suggestions from abstracts, not manuscript mappings. Nothing here is part of the collection until a reviewer accepts it.",
+  "candidates": [
+    {"name": "Any2Act", "title": "Any2Act: Scaling In-Context Robot Learning from Heterogeneous Demonstrations", "url": "https://arxiv.org/abs/2611.32353v1", "arxiv_id": "2611.32353", "submitted": "2026-11-24", "priority": "core", "form": "multimodal", "roles": ["task", "behavior"], "self_built": false, "decision": "pending"},
+    {"name": "MXI-MemICL", "title": "MXI-MemICL: Towards In-Context Robot Manipulation through Self-Retrieved Interaction Memory", "url": "https://arxiv.org/abs/2611.32564v1", "arxiv_id": "2611.32564", "submitted": "2026-11-24", "priority": "core", "form": "trajectory", "roles": ["behavior"], "self_built": true, "decision": "pending"},
+    {"name": "ICLWorld", "title": "ICLWorld: Benchmarking In-Context Learning of Agents from Digital to Physical Worlds", "url": "https://arxiv.org/abs/2611.32649v1", "arxiv_id": "2611.32649", "submitted": "2026-11-24", "priority": "boundary", "form": "multimodal", "roles": ["task"], "self_built": false, "decision": "pending"},
+    {"name": "Next-Manip", "title": "Next-Manip: On-Demand Agent-Policy Collaboration for Robotic Manipulation", "url": "https://arxiv.org/abs/2611.32533v1", "arxiv_id": "2611.32533", "submitted": "2026-11-24", "priority": "boundary", "form": "multimodal", "roles": ["task", "behavior"], "self_built": false, "decision": "pending"},
+    {"name": "Paper-context quadruped navigation", "title": "Does Research-Paper Context Improve LLM-Generated Quadruped Navigation? An Exploratory Simulation Study", "url": "https://arxiv.org/abs/2611.32381v1", "arxiv_id": "2611.32381", "submitted": "2026-11-24", "priority": "boundary", "form": "text", "roles": ["task"], "self_built": false, "decision": "pending"}
+  ]
+}
