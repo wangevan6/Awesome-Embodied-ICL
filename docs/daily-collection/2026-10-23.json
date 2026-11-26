@@ -1,0 +1,10 @@
+{
+  "run_date": "2026-10-23",
+  "timezone": "America/New_York",
+  "report": "docs/daily-collection/2026-10-23.md",
+  "note": "Machine-readable summary of the report. Forms and roles are review suggestions from abstracts, not manuscript mappings. Nothing here is part of the collection until a reviewer accepts it.",
+  "candidates": [
+    {"name": "Soft-Object ICL World Model", "title": "In-Context Learning World Models for Robot Dual-Arm Manipulation of Soft Garment with Partial Observations", "url": "https://arxiv.org/abs/2610.30988v1", "arxiv_id": "2610.30988", "submitted": "2026-10-22", "priority": "core", "form": "visual", "roles": ["state"], "self_built": true, "decision": "pending"},
+    {"name": "Synthetic behavior priors", "title": "Learning Robot Behavior Priors from Non-Robotic Synthetic Data", "url": "https://arxiv.org/abs/2610.31275v1", "arxiv_id": "2610.31275", "submitted": "2026-10-22", "priority": "boundary", "form": "trajectory", "roles": ["behavior"], "self_built": false, "decision": "pending"}
+  ]
+}

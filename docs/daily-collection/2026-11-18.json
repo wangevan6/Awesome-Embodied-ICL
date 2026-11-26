@@ -1,0 +1,9 @@
+{
+  "run_date": "2026-11-18",
+  "timezone": "America/New_York",
+  "report": "docs/daily-collection/2026-11-18.md",
+  "note": "Machine-readable summary of the report. Forms and roles are review suggestions from abstracts, not manuscript mappings. Nothing here is part of the collection until a reviewer accepts it.",
+  "candidates": [
+    {"name": "Closed-Loop Utility Demo Selection", "title": "Similar Is Not Useful: Selecting In-Context Demonstrations by Closed-Loop Utility", "url": "https://arxiv.org/abs/2611.22295v1", "arxiv_id": "2611.22295", "submitted": "2026-11-17", "priority": "core", "form": "trajectory", "roles": ["behavior"], "self_built": false, "decision": "pending"}
+  ]
+}

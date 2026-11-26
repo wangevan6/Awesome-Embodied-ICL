@@ -1,0 +1,9 @@
+{
+  "run_date": "2026-11-09",
+  "timezone": "America/New_York",
+  "report": "docs/daily-collection/2026-11-09.md",
+  "note": "Machine-readable summary of the report. Forms and roles are review suggestions from abstracts, not manuscript mappings. Nothing here is part of the collection until a reviewer accepts it.",
+  "candidates": [
+    {"name": "VICTR", "title": "VICTR: Value-Informed In-Context Learning for Vision-Language-Action Models", "url": "https://arxiv.org/abs/2611.08698v1", "arxiv_id": "2611.08698", "submitted": "2026-11-05", "priority": "core", "form": "multimodal", "roles": ["behavior"], "self_built": false, "decision": "pending"}
+  ]
+}

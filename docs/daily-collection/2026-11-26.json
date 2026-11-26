@@ -1,0 +1,10 @@
+{
+  "run_date": "2026-11-26",
+  "timezone": "America/New_York",
+  "report": "docs/daily-collection/2026-11-26.md",
+  "note": "Machine-readable summary of the report. Forms and roles are review suggestions from abstracts, not manuscript mappings. Nothing here is part of the collection until a reviewer accepts it.",
+  "candidates": [
+    {"name": "SEEK", "title": "SEEK: Self-Evolution through Execution Knowledge for Agentic Robot Manipulation", "url": "https://arxiv.org/abs/2611.33915v1", "arxiv_id": "2611.33915", "submitted": "2026-11-25", "priority": "boundary", "form": "text", "roles": ["task", "behavior"], "self_built": true, "decision": "pending"},
+    {"name": "CoWM", "title": "Co-World Model for Human-Video-to-Robot Transfer via Co-Constructed Shared Latent Dynamics", "url": "https://arxiv.org/abs/2611.34302v1", "arxiv_id": "2611.34302", "submitted": "2026-11-25", "priority": "boundary", "form": "visual", "roles": ["task", "behavior"], "self_built": false, "decision": "pending"}
+  ]
+}

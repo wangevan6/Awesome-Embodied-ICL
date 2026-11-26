@@ -1,0 +1,10 @@
+{
+  "run_date": "2026-10-09",
+  "timezone": "America/New_York",
+  "report": "docs/daily-collection/2026-10-09.md",
+  "note": "Machine-readable summary of the report. Forms and roles are review suggestions from abstracts, not manuscript mappings. Nothing here is part of the collection until a reviewer accepts it.",
+  "candidates": [
+    {"name": "FLOWMEM", "title": "Recompose and Refine Latent Reasoning Flows for Vision-Language-Action Models", "url": "https://arxiv.org/abs/2610.12090v1", "arxiv_id": "2610.12090", "submitted": "2026-10-08", "priority": "boundary", "form": null, "roles": [], "self_built": true, "decision": "pending"},
+    {"name": "Rewards in ICRL", "title": "Do LLMs Learn from Rewards in Context? : Rethinking the role of reward in In-Context Reinforcement Learning", "url": "https://arxiv.org/abs/2610.11152v1", "arxiv_id": "2610.11152", "submitted": "2026-10-08", "priority": "boundary", "form": "trajectory", "roles": [], "self_built": true, "decision": "pending"}
+  ]
+}

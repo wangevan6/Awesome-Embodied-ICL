@@ -1,0 +1,11 @@
+{
+  "run_date": "2026-11-17",
+  "timezone": "America/New_York",
+  "report": "docs/daily-collection/2026-11-17.md",
+  "note": "Machine-readable summary of the report. Forms and roles are review suggestions from abstracts, not manuscript mappings. Nothing here is part of the collection until a reviewer accepts it.",
+  "candidates": [
+    {"name": "Safe AD + A-Lag", "title": "Algorithm Distillation for Safe In-Context Reinforcement Learning", "url": "https://arxiv.org/abs/2611.21524v1", "arxiv_id": "2611.21524", "submitted": "2026-11-16", "priority": "core", "form": "trajectory", "roles": ["task", "behavior"], "self_built": true, "decision": "pending"},
+    {"name": "PICR", "title": "Physics-Informed Causal Reasoning for Nonstationary Robot Dynamics", "url": "https://arxiv.org/abs/2611.19251v1", "arxiv_id": "2611.19251", "submitted": "2026-11-14", "priority": "boundary", "form": "trajectory", "roles": ["state"], "self_built": true, "decision": "pending"},
+    {"name": "BoBDeLaN", "title": "BoBDeLaN: Bounded-Bandwidth Context Adaptation for Deep Lagrangian Robot Control", "url": "https://arxiv.org/abs/2611.21209v1", "arxiv_id": "2611.21209", "submitted": "2026-11-16", "priority": "boundary", "form": "trajectory", "roles": ["state"], "self_built": true, "decision": "pending"}
+  ]
+}

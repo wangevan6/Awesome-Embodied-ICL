@@ -1,0 +1,10 @@
+{
+  "run_date": "2026-10-30",
+  "timezone": "America/New_York",
+  "report": "docs/daily-collection/2026-10-30.md",
+  "note": "Machine-readable summary of the report. Forms and roles are review suggestions from abstracts, not manuscript mappings. Nothing here is part of the collection until a reviewer accepts it.",
+  "candidates": [
+    {"name": "JEDI", "title": "JEDI: Joint-Embedding Demonstration Compression for In-Context Imitation Learning", "url": "https://arxiv.org/abs/2610.40356v1", "arxiv_id": "2610.40356", "submitted": "2026-10-29", "priority": "core", "form": "multimodal", "roles": ["behavior"], "self_built": false, "decision": "pending"},
+    {"name": "Cross-Controller ICL", "title": "Cross-Controller Transfer via In-Context Behavior Adaptation", "url": "https://arxiv.org/abs/2610.39280v1", "arxiv_id": "2610.39280", "submitted": "2026-10-29", "priority": "core", "form": "trajectory", "roles": ["state"], "self_built": null, "decision": "pending"}
+  ]
+}
